@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      structures/{civ}/temple_of_masks
+      structures/{civ}/embassy
+      structures/{civ}/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>mayap</Civ>
+  </Identity>
+</Entity>

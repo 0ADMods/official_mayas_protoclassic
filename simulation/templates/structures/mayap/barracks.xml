@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+      <stone>150</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="24.0" depth="25.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mayap</Civ>
+    <GenericName>Barracks</GenericName>
+    <SpecificName>Bate nal</SpecificName>
+    <Tooltip>Train Mayan citizen-soldiers. Research improvements for Mayan units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="22.0" depth="23.0"/>
+  </Obstruction>
+   <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_nobre
+      units/{civ}/infantry_spearman_b
+      units/{civ}/mechanical_siege_ram
+      -units/{civ}/infantry_javelineer_b
+      -units/{civ}/infantry_archer_b
+      -units/{civ}/infantry_slinger_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/maya_protoclassic/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>
