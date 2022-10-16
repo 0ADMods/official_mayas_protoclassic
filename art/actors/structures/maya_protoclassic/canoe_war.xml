@@ -14,14 +14,12 @@
       </props>
       <textures>
         <texture file="structural/maya_canoe.png" name="baseTex"/>
-        <texture file="structural/maya_canoe_spec.png" name="specTex"/>
-        <texture file="structural/maya_canoe_norm.png" name="normTex"/>
-	  </textures>
+	 </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
     <variant name="death"/>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>basic_trans.xml</material>
 </actor>
