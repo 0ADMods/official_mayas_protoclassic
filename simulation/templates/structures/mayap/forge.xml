@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_forge">
+  <Footprint>
+    <Square width="22" depth="22"/>
+    <Height>6.0</Height>
+  </Footprint>
   <Identity>
     <Civ>mayap</Civ>
     <GenericName>Armory</GenericName>
     <SpecificName>K'al pibil</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="20" depth="20"/>
+  </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
       soldier_attack_melee_01
@@ -20,7 +27,6 @@
       -soldier_resistance_pierce_02
       -soldier_resistance_pierce_03
       archer_attack_spread
-
       mayap/soldier_attack_melee_obsidian_weapons
       mayap/attack_soldiers_axe
       mayap/attack_incendiary_weapons

@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="40.0" depth="16.0"/>
+    <Square width="30.0" depth="30.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -28,7 +28,7 @@
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="36.0" depth="12.0"/>
+    <Static width="28.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>
@@ -62,6 +62,6 @@
   </Vision>
   <VisualActor>
     <Actor>structures/maya_protoclassic/palacio.xml</Actor>
-    <FoundationActor>structures/fndn_9x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

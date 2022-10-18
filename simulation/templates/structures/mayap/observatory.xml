@@ -9,7 +9,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="50.0"/>
+    <Square width="38.0" depth="38.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -33,7 +33,7 @@
     <metal>50</metal>
   </Loot>
   <Obstruction>
-    <Static width="30.0" depth="50.0"/>
+    <Static width="36.0" depth="36.0"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>

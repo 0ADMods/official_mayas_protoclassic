@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.0" depth="25.0"/>
+    <Square width="22.0" depth="24.0"/>
     <Height>15.0</Height>
   </Footprint>
   <Health>
@@ -17,10 +17,9 @@
     <Civ>mayap</Civ>
     <GenericName>Barracks</GenericName>
     <SpecificName>Bate nal</SpecificName>
-    <Tooltip>Train Mayan citizen-soldiers. Research improvements for Mayan units.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="22.0" depth="23.0"/>
+    <Static width="20.0" depth="22.0"/>
   </Obstruction>
    <Trainer>
     <Entities datatype="tokens">
@@ -34,6 +33,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/maya_protoclassic/barracks.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

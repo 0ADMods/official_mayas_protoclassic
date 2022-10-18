@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
   <Footprint>
-    <Square width="29.0" depth="29.0"/>
+    <Square width="27.0" depth="27.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -10,7 +10,7 @@
     <SpecificName> K’íwik</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="27.0" depth="27.0"/>
+    <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>

@@ -12,8 +12,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
-    <Height>8.0</Height>
+    <Square width="26" depth="26"/>
+    <Height>20.0</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
@@ -36,7 +36,7 @@
     <metal>50</metal>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="24" depth="24"/>
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -52,7 +52,7 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/maya_protoclassic/templomaior.xml</Actor>
-    <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
    <Vision>
     <Range>60</Range>

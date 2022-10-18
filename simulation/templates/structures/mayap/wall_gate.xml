@@ -2,27 +2,27 @@
 <Entity parent="template_structure_defensive_wall_gate">
   <Cost>
     <Resources>
-      <wood>30</wood>
+      <wood>50</wood>
       <stone>0</stone>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="37.0" depth="8.0"/>
-    <Height>22.0</Height>
+    <Square width="47" depth="14"/>
+    <Height>14</Height>
   </Footprint>
   <Identity>
     <Civ>mayap</Civ>
     <SpecificName>Dwara</SpecificName>
   </Identity>
   <Loot>
-    <wood>6</wood>
+    <wood>10</wood>
     <stone>0</stone>
   </Loot>
   <Obstruction>
     <Obstructions>
-      <Right width="11" depth="7" x="12.5" z="0"/>
-      <Left width="11" depth="7" x="-12.5" z="0"/>
-      <Door width="14" depth="7" x="0" z="0"/>
+      <Right width="14" depth="12" x="6" z="0"/>
+      <Left width="14" depth="12" x="-6" z="0"/>
+      <Door width="12" depth="7" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
   <StatusBars>

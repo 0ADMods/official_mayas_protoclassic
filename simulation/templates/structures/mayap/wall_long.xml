@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="32.0" depth="7.0"/>
-    <Height>10.5</Height>
+    <Square width="47" depth="14"/>
+    <Height>14</Height>
   </Footprint>
   <Identity>
     <Civ>mayap</Civ>
@@ -19,7 +19,7 @@
     <stone>0</stone>
   </Loot>
   <Obstruction>
-    <Static width="31.0" depth="7.0"/>
+    <Static width="45" depth="12"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>18.0</HeightOffset>

@@ -8,7 +8,7 @@
   </Cost>
   <Footprint>
     <Square width="28.0" depth="28.0"/>
-    <Height>15.0</Height>
+    <Height>12.0</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -24,7 +24,7 @@
     <stone>40</stone>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
