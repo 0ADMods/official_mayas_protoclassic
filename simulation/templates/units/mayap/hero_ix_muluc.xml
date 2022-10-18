@@ -7,6 +7,7 @@
     <Civ>mayap</Civ>
     <GenericName>hero_ix_muluc</GenericName>
     <SpecificName>Ix Muluc</SpecificName>
+    <Phenotype>female</Phenotype>
     <Icon>units/mayap/queen.png</Icon>
   </Identity>
   <VisualActor>

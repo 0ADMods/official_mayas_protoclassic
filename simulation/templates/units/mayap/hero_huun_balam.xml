@@ -9,6 +9,10 @@
     <SpecificName>Huun Balam</SpecificName>
     <Icon>units/mayap/yax_ehb'xok.png</Icon>
   </Identity>
+  <Position>
+    <Anchor>pitch-roll</Anchor>
+    <TurnRate>3</TurnRate>
+  </Position>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
     <RunMultiplier>1</RunMultiplier>
