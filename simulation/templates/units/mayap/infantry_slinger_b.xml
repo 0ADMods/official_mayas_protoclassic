@@ -12,13 +12,13 @@
   </Builder>
   <Identity>
     <Civ>mayap</Civ>
-    <SelectionGroupName>units/zapo_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
     <GenericName>maya Slinger</GenericName>
     <SpecificName>Yum'Tun Bate</SpecificName>
     <Icon>units/mayap/slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/maya_protoclassic/infantry_slinger_a</Entity>
+    <Entity>units/mayap/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/maya_protoclassic/infantry_slinger_b.xml</Actor>
