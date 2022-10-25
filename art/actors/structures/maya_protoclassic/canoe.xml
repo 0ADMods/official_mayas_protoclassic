@@ -19,7 +19,6 @@
     <variant frequency="1" name="run"/>
     <variant frequency="1" name="gather_fish">
       <props>
-        <prop actor="props/units/row.xml" attachpoint="row"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
