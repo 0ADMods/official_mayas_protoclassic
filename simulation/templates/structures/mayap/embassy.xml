@@ -28,7 +28,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_spearman_lenca_b
+      units/{civ}/infantry_merc_spearman_lenca_b
       units/{civ}/infantry_swordsman_merc_b
       units/{civ}/infantry_archer_lenca_b
     </Entities>

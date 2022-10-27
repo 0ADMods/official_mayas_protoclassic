@@ -3,6 +3,12 @@
    <Auras datatype="tokens">
      units/mayap/heroes/huun_balam
   </Auras>
+   <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.2</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
   <Identity>
     <Civ>mayap</Civ>
     <GenericName>Huun Balam</GenericName>
