@@ -9,7 +9,14 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>
-
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
     <Sound>
     <SoundGroups>
       <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>

@@ -32,6 +32,7 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned"/>
+        <prop actor="flora/trees/olive.xml" attachpoint="patch" minheight="-20" maxheight="20"/>
       </props>
     </variant>
   </group>
