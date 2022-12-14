@@ -19,6 +19,10 @@
     <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="1" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/hay_large.xml" attachpoint="2" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_hele_a.xml" attachpoint="4" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/food_sack.xml" attachpoint="3" maxheight="-1" minheight="-20"/>          
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>

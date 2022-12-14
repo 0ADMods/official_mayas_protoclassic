@@ -21,11 +21,11 @@
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/stone_pile_red.xml" attachpoint="1" maxheight="-1" minheight="-20"/>
         <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="2" maxheight="-1" minheight="-20"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="3"/>
+        <!-- <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="3"/>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="4"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="5"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="6"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="7"/>               
+        <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="5"/> -->
+        <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="6" maxheight="-1" minheight="-20"/>
+        <!-- <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="7"/>                -->
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>

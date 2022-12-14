@@ -19,6 +19,13 @@
     <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/basket_hele_a.xml" attachpoint="1" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_hele_a.xml" attachpoint="2" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/food_sack.xml" attachpoint="3" maxheight="-1" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="4" maxheight="-1" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="5" maxheight="-1" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="6" maxheight="-1" minheight="-20"/>
+        <prop actor="props/special/eyecandy/food_sack.xml" attachpoint="7" maxheight="-1" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
