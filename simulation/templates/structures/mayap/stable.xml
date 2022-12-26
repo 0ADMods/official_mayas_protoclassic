@@ -29,7 +29,7 @@
     <Tooltip>Train Heavy infantry units.</Tooltip>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <Icon>structures/mayap/ball_court.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements> 
   </Identity>
   <Loot>
     <stone>50</stone>

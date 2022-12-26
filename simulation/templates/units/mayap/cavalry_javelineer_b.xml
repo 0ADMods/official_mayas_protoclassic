@@ -29,7 +29,7 @@
     <Icon>units/mayap/guardian.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>

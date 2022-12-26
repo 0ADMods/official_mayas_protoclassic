@@ -6,7 +6,7 @@
     <GenericName>Heavy Infantry Axeman </GenericName>
     <SpecificName>Aj Balam B'ate</SpecificName>
     <Icon>units/mayap/heavy_axeman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>

@@ -27,7 +27,7 @@
     <SpecificName>mr ʿȝ</SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
     <Icon>structures/mayap/piramide.png</Icon>
   </Identity>
   <Loot>

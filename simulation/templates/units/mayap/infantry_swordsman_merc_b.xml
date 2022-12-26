@@ -16,7 +16,7 @@
     <SpecificName></SpecificName>
     <SelectionGroupName>units/mayap/infantry_swordsman_merc_b</SelectionGroupName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_swordsman_merc_a</Entity>

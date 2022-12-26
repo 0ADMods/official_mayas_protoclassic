@@ -6,7 +6,7 @@
     <GenericName>Champion Spearman</GenericName>
     <SpecificName>Aj witz mo B'ate</SpecificName>
      <Icon>units/mayap/heavy_infantry_spearma.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>

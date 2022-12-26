@@ -15,7 +15,7 @@
     <SelectionGroupName>Spearman</SelectionGroupName>
     <SpecificName>Taj Lom Bate</SpecificName>
     <Icon>units/mayap/spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+       <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_spearman_a</Entity>
