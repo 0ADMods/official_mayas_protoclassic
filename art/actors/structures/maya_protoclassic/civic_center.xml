@@ -25,10 +25,12 @@
   <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s1" maxheight="-1" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s2" maxheight="-1" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s3" maxheight="-1" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s4" maxheight="-1" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st1"/>
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st2"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s1" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s2" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s3" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s4" maxheight="10" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
