@@ -8,7 +8,7 @@
     <Civ>mayap</Civ>
     <GenericName>Bireme</GenericName>
     <SpecificName>Dierēs</SpecificName>
-    <Icon>units/ptol_ship_bireme.png</Icon>
+    <Icon>units/ptol/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/maya_protoclassic/canoe_war.xml</Actor>
