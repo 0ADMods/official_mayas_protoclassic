@@ -14,18 +14,21 @@
      <variant frequency="1" name="1">
       <textures>
         <texture file="skeletal/maya_isl_a_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="2">
       <textures>
 	    <texture file="skeletal/maya_isl_a_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
     	<variant frequency="1" name="3">
       <textures>
 	    <texture file="skeletal/maya_isl_a_3.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -62,5 +65,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

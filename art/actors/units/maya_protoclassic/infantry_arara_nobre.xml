@@ -18,7 +18,7 @@
         <prop actor="props/units/armor/pena_L.xml" attachpoint="shoulderpad_L"/>
         <prop actor="props/units/weapons/spear_s_maya_a.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
-	<prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
+	    <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
@@ -26,18 +26,21 @@
     <variant frequency="1" name="a">
       <textures>
         <texture file="skeletal/mayas/maya_guapamayo_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
-  <variant frequency="1" name="b">
+    <variant frequency="1" name="b">
       <textures>
       <texture file="skeletal/mayas/maya_guapamayo_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
-      <variant frequency="1" name="c">
+    <variant frequency="1" name="c">
       <textures>
       <texture file="skeletal/mayas/maya_guapamayo_3.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -74,5 +77,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

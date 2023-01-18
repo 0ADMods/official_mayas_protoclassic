@@ -14,26 +14,29 @@
     </variant>
   </group>
   <group>
-    <variant frequency="50" name="1">
+    <variant frequency="1" name="1">
       <textures>
         <texture file="skeletal/mayas/maya_jaguar_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="50" name="2">
+    <variant frequency="1" name="2">
       <textures>
         <texture file="skeletal/mayas/maya_jaguar_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
-        <variant frequency="50" name="3">
+    <variant frequency="1" name="3">
       <textures>
         <texture file="skeletal/mayas/maya_jaguar_3.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
- <group>
+  <group>
     <variant file="biped/base_axeman_shield_fast.xml"/>
     <variant file="biped/approach_praise.xml"/>
   </group>
@@ -47,5 +50,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

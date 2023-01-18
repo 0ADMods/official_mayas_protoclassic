@@ -2,13 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-      <variant frequency="80" name="hemet_s">
+    <variant frequency="4" name="hemet_s">
       <props>
         <prop actor="props/units/heads/head_maya_f_queen.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/queen_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="20" name="hemet_n">
+    <variant frequency="1" name="hemet_n">
       <props>
         <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
       </props>
@@ -19,6 +19,7 @@
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -26,20 +27,23 @@
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
-        <variant frequency="1" name="3">
+    <variant frequency="1" name="3">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
-            <variant frequency="1" name="4">
+    <variant frequency="1" name="4">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -70,5 +74,5 @@
     <variant file="biped/female_build.xml"/>
     <variant file="biped/female_build_farm.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -16,18 +16,20 @@
       <mesh>skeletal/new/m_tunic_maya_variant_short.dae</mesh>
       <textures>
         <texture file="skeletal/mayas/maya_javelineer_b_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
-  <variant frequency="1" name="b">
+    <variant frequency="1" name="b">
       <mesh>skeletal/new/m_tunic_maya.dae</mesh>
       <textures>
-      <texture file="skeletal/mayas/maya_javelineer_b_2.png" name="baseTex"/>
+        <texture file="skeletal/mayas/maya_javelineer_b_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
- <group>
+  <group>
     <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
@@ -60,5 +62,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

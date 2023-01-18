@@ -15,19 +15,25 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Base-Grey">
+    <variant frequency="1" name="Base-Grey">
       <textures>
         <texture file="skeletal/animal_deer_white.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="Base-Brown">
+    <variant frequency="1" name="Base-Brown">
       <textures>
         <texture file="skeletal/animal_deer_white.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="Base-Brown-Freckles">
+    <variant frequency="1" name="Base-Brown-Freckles">
       <textures>
         <texture file="skeletal/animal_deer_white.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -63,5 +69,5 @@
       </props>
     </variant>
   </group>
-  <material>default.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

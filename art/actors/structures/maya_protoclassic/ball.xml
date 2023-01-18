@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-   <group>
-    <variant frequency="100" name="1">
-      <mesh>structural/maya_protoclassic/ball_1.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayap/ball_1.png" name="aoTex"/>
-      </textures>
-    </variant>
-      <variant frequency="100" name="2">
-      <mesh>structural/maya_protoclassic/ball_2.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayap/ball_2.png" name="aoTex"/>
-      </textures>
-    </variant>
-  </group>
   <group>
     <variant frequency="100" name="Base">
       <props>
@@ -28,6 +14,20 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/maya_protoclassic/ball_1.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/ball_1.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="2">
+      <mesh>structural/maya_protoclassic/ball_2.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/ball_2.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>
@@ -37,13 +37,7 @@
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_medium.xml">
-      <props>
-        <prop actor="props/structures/han/barracks_weap.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/barracks.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant file="structures/destruction_medium.xml"/>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
