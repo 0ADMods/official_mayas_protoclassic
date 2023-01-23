@@ -6,14 +6,16 @@
     <variant>
       <mesh>props/litera_aberta.dae</mesh>
       <props>
-		    <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_1"/>	
-		    <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_2"/>	   
-		    <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_3"/>	   
-		    <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_4"/>
-		    <prop actor="units/maya_protoclassic/ajaw_lirera.xml" attachpoint="k"/>	      
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_1"/>	
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_2"/>	   
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_3"/>	   
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_4"/>
+        <prop actor="units/maya_protoclassic/ajaw_lirera.xml" attachpoint="k"/>	      
       </props>
       <textures>
         <texture file="props/maya_weapons.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -25,5 +27,5 @@
       </props>
     </variant>
     </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -2,20 +2,6 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="1">
-      <mesh>structural/maya_protoclassic/corral_1.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/corral_1.png" name="aoTex"/>
-      </textures>
-    </variant>
-      <variant frequency="100" name="2">
-      <mesh>structural/maya_protoclassic/corral_2.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/corral_2.png" name="aoTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
     <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
@@ -32,17 +18,30 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/maya_protoclassic/corral_1.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/corral_1.png" name="aoTex"/>
+      </textures>
+    </variant>
+      <variant frequency="1" name="2">
+      <mesh>structural/maya_protoclassic/corral_2.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/corral_2.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned"/>
-        <prop actor="flora/trees/olive.xml" attachpoint="patch" minheight="-20" maxheight="20"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_medium.xml"/>
+    <variant file="structures/destruction_small.xml"/>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

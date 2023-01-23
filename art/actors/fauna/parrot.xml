@@ -4,21 +4,19 @@
   <float/>
   <group>
     <variant>
+      <mesh>skeletal/parrot.dae</mesh>
       <animations>
         <animation file="other/parrot_flight.dae" name="Walk" speed="10"/>
         <animation file="other/parrot_flight.dae" name="Walk" speed="3"/>
         <animation file="other/parrot_flight.dae" name="Idle" speed="40"/>
         <animation file="other/parrot_flight.dae" name="Idle" speed="3"/>
       </animations>
-      <mesh>skeletal/parrot.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant name="hawk a">
       <textures>
         <texture file="skeletal/parrot.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

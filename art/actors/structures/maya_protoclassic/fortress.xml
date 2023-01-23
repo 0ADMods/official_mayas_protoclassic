@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-   <group>
-    <variant frequency="100" name="1">
+  <group>
+    <variant frequency="1" name="1">
       <mesh>structural/maya_protoclassic/fortress_1.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/fortress_1.png" name="aoTex"/>
       </textures>
     </variant>
-      <variant frequency="100" name="2">
+      <variant frequency="1" name="2">
       <mesh>structural/maya_protoclassic/fortress_2.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/fortress_2.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
-<group>
-    <variant frequency="100" name="Base">
+  <group>
+    <variant frequency="1" name="Base">
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>
