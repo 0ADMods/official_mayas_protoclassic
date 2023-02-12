@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_axeman_shield_fast.xml">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_maya.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_maya_nw.xml" attachpoint="head"/>
@@ -35,9 +35,23 @@
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="4">
+      <textures>
+        <texture file="skeletal/mayas/maya_jaguar_w_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5">
+      <textures>
+        <texture file="skeletal/mayas/maya_jaguar_w_2.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant file="biped/base_axeman_shield_fast.xml"/>
+    <variant file="biped/base_axeman_shield_fast_ready.xml"/>
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>

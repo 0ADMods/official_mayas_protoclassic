@@ -2,11 +2,14 @@
 <Entity parent="template_unit_cavalry_melee_axeman">
   <Identity>
     <Civ>mayap</Civ>
+    <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Heavy Infantry Axeman </GenericName>
+    <GenericName>Jaguar Warrior</GenericName>
     <SpecificName>Aj Balam B'ate</SpecificName>
-    <Icon>units/mayap/heavy_axeman.png</Icon>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Icon>units/mayap/cavalry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>
@@ -43,7 +46,6 @@
       <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
     </SoundGroups>
   </Sound>
-  
   <VisualActor>
     <Actor>units/maya_protoclassic/infantry_nobre_jaguar.xml</Actor>
   </VisualActor>

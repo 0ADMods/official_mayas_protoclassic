@@ -1,6 +1,6 @@
 {
-	"genericName": "Annual safra",
-	"description": "Safras anuais.",
+	"genericName": "Annual Harvest",
+	"description": "",
 	"cost": {
 		"wood": 200,
 		"metal": 100

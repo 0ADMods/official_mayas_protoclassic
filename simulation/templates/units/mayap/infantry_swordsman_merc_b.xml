@@ -13,10 +13,11 @@
   <Identity>
     <Civ>mayap</Civ>
     <GenericName>Olmec Mercenary Swordsman</GenericName>
-    <SpecificName></SpecificName>
     <SelectionGroupName>units/mayap/infantry_swordsman_merc_b</SelectionGroupName>
-    <Icon>units/cart_infantry_swordsman.png</Icon>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Icon>units/mayap/mercenary_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_swordsman_merc_a</Entity>

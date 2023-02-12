@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_warship_light">
   <Footprint>
-    <Square width="8.0" depth="33.0"/>
-    <Height>10.0</Height>
+    <Square width="6.0" depth="24.0"/>
+    <Height>6.0</Height>
   </Footprint>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Bireme</GenericName>
-    <SpecificName>Dierēs</SpecificName>
-    <Icon>units/ptol/ship_bireme.png</Icon>
+    <SpecificName>War Canoe</SpecificName>
+    <Icon>units/mayap/ship_light.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/maya_protoclassic/canoe_war.xml</Actor>

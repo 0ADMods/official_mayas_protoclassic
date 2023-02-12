@@ -1,5 +1,8 @@
 {
-	"genericName": "Siho'm",
+	"genericName": "Slash and Burn Forestry",
+	"specificName": {
+		"mayap": "Siho'm"
+	},
 	"description": "Increases wood gathering rates for trees.",
 	"cost": {
 		"wood": 400,

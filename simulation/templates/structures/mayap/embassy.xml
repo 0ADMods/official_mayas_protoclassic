@@ -15,7 +15,6 @@
   </Health>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Embassy</GenericName>
     <Tooltip>Train Mercenaries.</Tooltip>
     <Icon>structures/mayap/plaza.png</Icon>
   </Identity>

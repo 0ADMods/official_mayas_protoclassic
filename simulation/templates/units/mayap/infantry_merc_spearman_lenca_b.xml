@@ -12,9 +12,8 @@
   <Identity>
     <Civ>mayap</Civ>
     <SelectionGroupName>units/mayap/lenca_infantry_spearman</SelectionGroupName>
-    <GenericName>Lenca Spearman</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/mayap/lenca_spearman.png</Icon>
+    <GenericName>Lenca Mercenary Spearman</GenericName>
+    <Icon>units/mayap/mercenary_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_merc_spearman_lenca_a</Entity>

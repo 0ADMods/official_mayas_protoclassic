@@ -2,11 +2,14 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>mayap</Civ>
+    <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
-    <GenericName>Champion Spearman</GenericName>
+    <GenericName>Eagle Warrior</GenericName>
     <SpecificName>Aj witz mo B'ate</SpecificName>
-     <Icon>units/mayap/heavy_infantry_spearma.png</Icon>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Icon>units/mayap/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>
@@ -43,7 +46,6 @@
       <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
     </SoundGroups>
   </Sound>
-  
   <VisualActor>
     <Actor>units/maya_protoclassic/infantry_arara_nobre.xml</Actor>
   </VisualActor>

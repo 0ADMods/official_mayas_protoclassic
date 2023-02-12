@@ -7,6 +7,6 @@
     <Entity>units/mayap/infantry_blowgunner_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_blowgunner_b.xml</Actor>
+    <Actor>units/maya_protoclassic/infantry_blowgunner_a.xml</Actor>
   </VisualActor>
 </Entity>

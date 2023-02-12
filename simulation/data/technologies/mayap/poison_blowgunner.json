@@ -12,9 +12,9 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in Village Fase.",
-	"icon": "dispara_veneno.png",
+	"icon": "snake_venom.png",
 	"researchTime": 10,
-	"tooltip": "Bonus in poisoned attack X3.",
+	"tooltip": "Poison-dealing Soldiers +200% poison attack damage.",
 	"modifications": [
 		{ "value": "Attack/Ranged/ApplyStatus/Poisoned/Damage/Poison", "multiply": 3.0 }
 	],

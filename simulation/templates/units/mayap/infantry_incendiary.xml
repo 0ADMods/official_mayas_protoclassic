@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Attack>
     <Ranged>
+     <AttackName>Fire</AttackName>
      <ApplyStatus>
         <Burning>
           <Interval>5000</Interval>
@@ -12,14 +13,13 @@
           <Duration>9000</Duration>
         </Burning>
       </ApplyStatus>
-       <AttackName>Fire javelineer</AttackName>
       <Damage>
         <Pierce>10</Pierce>
         <Crush>20</Crush>
       </Damage>
 	  <MaxRange>20.0</MaxRange>
-         <PrepareTime>4000</PrepareTime>
-         <RepeatTime>5000</RepeatTime>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
 	  <Bonuses>
 		<BonusGates>
 		  <Classes>Gates</Classes>
@@ -41,11 +41,13 @@
   <Identity>
     <Civ>mayap</Civ>
     <Classes datatype="tokens">Siege</Classes>
-    <GenericName>Incendiary warrior</GenericName>
+    <GenericName>Fire Warrior</GenericName>
     <SpecificName>Tilo'm Bate</SpecificName>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
     <Tooltip>siege</Tooltip>
-    <Icon>units/mayap/maya_fire.png</Icon>
+    <Icon>units/mayap/infantry_fireman.png</Icon>
   </Identity>
   <Health>
     <Max>150</Max>

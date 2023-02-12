@@ -13,9 +13,9 @@
   <Identity>
     <Civ>mayap</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
-    <GenericName>Lenca Archer</GenericName>
+    <GenericName>Lenca Mercenary Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/lenca_archer.png</Icon>
+    <Icon>units/mayap/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_archer_lenca_a</Entity>

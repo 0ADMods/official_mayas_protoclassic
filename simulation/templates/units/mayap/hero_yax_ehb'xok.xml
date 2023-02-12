@@ -5,9 +5,8 @@
    </Auras>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Ajaw Yax Ehb'Xok</GenericName>
     <SpecificName>Ajaw Yax Ehb'Xok</SpecificName>
-    <Icon>units/mayap/yax_ehb'xok.png</Icon>
+    <Icon>units/mayap/hero_king_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/maya_protoclassic/hero_yax_ehb'xok_infantry_spearman.xml</Actor>
