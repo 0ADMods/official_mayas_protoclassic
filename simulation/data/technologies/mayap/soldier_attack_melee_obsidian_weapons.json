@@ -1,5 +1,5 @@
 {
-	"genericName": "Obsidian Knife",
+	"genericName": "Obsidian Blades",
 	"specificName": {
 		"mayap": "Taj"
 	},
@@ -10,7 +10,7 @@
 	},
 	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "obj_obsidiana.png",
+	"icon": "obsidian.png",
 	"researchTime": 30,
 	"tooltip": "Soldiers +15% melee attack damage.",
 	"modifications": [

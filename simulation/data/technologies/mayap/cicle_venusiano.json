@@ -1,11 +1,13 @@
 {
-	"genericName": "Venusian cicles",
+	"genericName": "Venusian Cycles",
 	"description": "Preparations for each season with the highest possible precision.",
-	"cost": { "food": 0, "wood": 400, "stone": 0, "metal": 300 },
-	"supersedes": "gather_farming_training",
+	"cost": {
+		"wood": 400,
+		"metal": 300
+	},
 	"requirements": { "tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "ciclo_venus.png",
+	"icon": "venusian_cycles.png",
 	"researchTime": 60,
 	"tooltip": "Workers +100% grain gather rate.",
 	"modifications": [

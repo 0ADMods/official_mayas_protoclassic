@@ -1,9 +1,8 @@
 {
-	"genericName": "Acesso como governante",
+	"genericName": "Absolute Power",
 	"specificName": {
 		"mayap": "Chum il"
 	},
-	"description": "Acesso como governante ",
 	"cost": {
 		"metal": 400,
 		"stone": 200

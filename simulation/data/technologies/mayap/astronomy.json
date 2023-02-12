@@ -1,8 +1,10 @@
 {
 	"genericName": "Astronomy",
-	"description": "Preparations for each season with the highest possible precision.",
-	"cost": { "food": 0, "wood": 400, "stone": 0, "metal": 300 },
-	"supersedes": "gather_farming_training",
+	"description": "The study of the heavens helped to precisely plan for the planting and harvesting seasons.",
+	"cost": {
+		"wood": 400,
+		"metal": 300
+	},
 	"requirements": { "tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "olives.png",

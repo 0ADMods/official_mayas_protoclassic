@@ -1,6 +1,6 @@
 {
-	"genericName": "Incendiary  weapons",
-	"description": "",
+	"genericName": "Incendiary  Weapons",
+	"description": "The use of fire in Mesoamerican warfare is attested to by archaeological evidence.",
 	"cost": {
 		"metal": 100,
 		"wood": 700
@@ -14,7 +14,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "incendiary_weapons.png",
 	"researchTime": 50,
-	"tooltip": "Bonus in Burning attack X3.",
+	"tooltip": "Soldiers with fire attack +200% fire damage.",
 	"modifications": [
 		{ "value": "Attack/Ranged/ApplyStatus/Burning/Damage/Fire", "multiply": 3.0 }
 	],
