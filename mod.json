@@ -1,9 +1,9 @@
 {
 	"name": "mayas_protoclassic",
 	"label": "mayas_protoclassic",
-	"version": "1.0.0",
+	"version": "0.0.27",
 	"url": "https://github.com/0ADMods/maias",
-	"description": "Add maias to 0 A.D.",
+	"description": "Add the Maya civilization to 0 A.D.",
 	"dependencies": ["0ad=0.0.27"],
 	"type": "civ"
 }
