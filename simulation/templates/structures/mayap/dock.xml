@@ -7,7 +7,6 @@
   <Identity>
     <Civ>mayap</Civ>
     <SpecificName>Kayoom nah</SpecificName>
-    <History></History>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="24.0"/>
@@ -15,10 +14,7 @@
   <Researcher>
     <Technologies datatype="tokens">
       mayap/ship_trade_mesoamerican_cabotage
-      mayap/ship_trade_mesoamerican_cabotage
       mayap/ship_trade_shells
-      -equine_transports
-      -iphicratean_reforms
       -ship_cost_time
       -ship_health
       -ship_movement_speed

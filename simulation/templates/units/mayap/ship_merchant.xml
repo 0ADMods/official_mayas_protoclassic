@@ -6,9 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Trading Ship</GenericName>
+    <GenericName>Trading Boat</GenericName>
     <SpecificName>Jukuub' Konol</SpecificName>
-    <Icon>units/mayap/canoa_merc.png</Icon>
+    <Icon>units/mayap/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/maya_protoclassic/canoe_merchant.xml</Actor>

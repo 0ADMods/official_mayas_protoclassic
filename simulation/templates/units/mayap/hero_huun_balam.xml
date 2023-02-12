@@ -11,9 +11,8 @@
   </Decay>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Huun Balam</GenericName>
     <SpecificName>Huun Balam</SpecificName>
-    <Icon>units/mayap/yax_ehb'xok.png</Icon>
+    <Icon>units/mayap/hero_king_01.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch-roll</Anchor>

@@ -12,10 +12,12 @@
   </Builder>
   <Identity>
     <Civ>mayap</Civ>
-    <SelectionGroupName>Spearman</SelectionGroupName>
+    <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Taj Lom Bate</SpecificName>
-    <Icon>units/mayap/spearman.png</Icon>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Icon>units/mayap/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_spearman_a</Entity>

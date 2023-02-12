@@ -13,9 +13,9 @@
   <Identity>
     <Civ>mayap</Civ>
     <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
-    <GenericName>maya Slinger</GenericName>
+    <GenericName>Maya Slinger</GenericName>
     <SpecificName>Yum'Tun Bate</SpecificName>
-    <Icon>units/mayap/slinger.png</Icon>
+    <Icon>units/mayap/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mayap/infantry_slinger_a</Entity>

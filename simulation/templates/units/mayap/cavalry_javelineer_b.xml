@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelineer">
-    <Attack>
+  <Attack>
     <Ranged>
       <ApplyStatus>
         <Burning>
@@ -12,7 +12,7 @@
           <Duration>9000</Duration>
         </Burning>
       </ApplyStatus>
-     <Damage>
+      <Damage>
         <Pierce>25</Pierce>
       </Damage>
       <Projectile>
@@ -23,13 +23,16 @@
   </Attack>
   <Identity>
     <Civ>mayap</Civ>
+    <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
-    <GenericName>Heavy Infantry Javalineer</GenericName>
+    <GenericName>Noble Guardian</GenericName>
     <SpecificName>Kokhom B'ate</SpecificName>
-    <Icon>units/mayap/guardian.png</Icon>
+    <Icon>units/mayap/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
-       <Requirements><Techs>phase_town</Techs></Requirements>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>

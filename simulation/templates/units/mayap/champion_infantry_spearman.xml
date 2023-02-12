@@ -3,9 +3,9 @@
   <Identity>
     <GenericName>Champion Spearman</GenericName>
     <SpecificName>Aj Payal</SpecificName>
-     <Icon>units/mayap/bahkab.png</Icon>
+    <Icon>units/mayap/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_spearman_ajpayal.xml</Actor>
+    <Actor>units/maya_protoclassic/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

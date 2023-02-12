@@ -8,6 +8,7 @@
     <Civ>mayap</Civ>
     <SpecificName>Ol nuk naj</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
+    <Icon>structures/mayap/colony.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="25" depth="23"/>
