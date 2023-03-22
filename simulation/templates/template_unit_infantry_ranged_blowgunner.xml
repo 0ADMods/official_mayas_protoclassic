@@ -38,6 +38,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Blowgunner</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
+    <Tooltip>Blowguns are good hunters.</Tooltip>
   </Identity>
   <Loot>
     <wood>5</wood>

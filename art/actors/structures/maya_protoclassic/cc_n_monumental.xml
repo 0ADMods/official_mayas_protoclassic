@@ -20,12 +20,7 @@
         <texture file="structural/ao/mayap/cc_menor_1.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/cc_menor_2.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/cc_menor_2.png" name="aoTex"/>
-      </textures>
-    </variant>
+
   </group>
   <group>
     <variant name="ungarrisoned" frequency="1"/>

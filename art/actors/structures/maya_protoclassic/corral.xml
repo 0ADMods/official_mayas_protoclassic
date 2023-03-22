@@ -24,12 +24,6 @@
         <texture file="structural/ao/mayap/corral_1.png" name="aoTex"/>
       </textures>
     </variant>
-      <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/corral_2.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/corral_2.png" name="aoTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant name="ungarrisoned" frequency="1"/>

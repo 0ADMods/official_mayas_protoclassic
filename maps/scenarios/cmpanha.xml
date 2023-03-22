@@ -1,0 +1,3041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>cloudless</SkySet>
+		<SunColor r="1.01504" g="1.0395" b="0.9702"/>
+		<SunElevation angle="0.589049"/>
+		<SunRotation angle="-1.44287"/>
+		<AmbientColor r="0.388235" g="0.372549" b="0.521569"/>
+		<Fog>
+			<FogFactor>0.00305664</FogFactor>
+			<FogThickness>0.498535</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.0784314" g="0.247059" b="0.419608"/>
+				<Tint r="0.470588" g="1" b="0.501961"/>
+				<Height>19.9</Height>
+				<Waviness>1</Waviness>
+				<Murkiness>0.88</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>1</Saturation>
+			<Bloom>0.14</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="987.175" y="163.073" z="345.459"/>
+		<Rotation angle="-0.0597177"/>
+		<Declination angle="0.621875"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "All players starts on a continent surrounded by water.",
+  "Keywords": [
+    "multiplayer"
+  ],
+  "LockTeams": false,
+  "Name": "Continent",
+  "Nomad": false,
+  "PlayerData": [
+    "",
+    {
+      "Civ": "han"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "ptol"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "Preview": "continent.png",
+  "RevealMap": false,
+  "Script": "continent.js",
+  "Seed": 2861,
+  "Size": 384,
+  "SupportedBiomes": "generic/",
+  "VictoryConditions": [
+    "conquest"
+  ],
+  "mapType": "random"
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="3558">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1364.46137" z="576.4499"/>
+			<Orientation y="0.98806"/>
+		</Entity>
+		<Entity uid="3559">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1360.43622" z="578.45624"/>
+			<Orientation y="-4.18883"/>
+		</Entity>
+		<Entity uid="3560">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="547.10456" z="777.27814"/>
+			<Orientation y="1.50759"/>
+		</Entity>
+		<Entity uid="3561">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="549.15937" z="772.10743"/>
+			<Orientation y="0.6817"/>
+		</Entity>
+		<Entity uid="3562">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="544.51191" z="772.08106"/>
+			<Orientation y="-0.2086"/>
+		</Entity>
+		<Entity uid="3563">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="950.14875" z="1359.50153"/>
+			<Orientation y="0.78971"/>
+		</Entity>
+		<Entity uid="3564">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1381.74378" z="1337.84516"/>
+			<Orientation y="1.36432"/>
+		</Entity>
+		<Entity uid="3565">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="616.98597" z="777.09095"/>
+			<Orientation y="-0.53373"/>
+		</Entity>
+		<Entity uid="3566">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="590.33887" z="1198.37049"/>
+			<Orientation y="0.439"/>
+		</Entity>
+		<Entity uid="3567">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1128.9084" z="1129.56507"/>
+			<Orientation y="-4.31748"/>
+		</Entity>
+		<Entity uid="3568">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1133.60602" z="1128.43726"/>
+			<Orientation y="-0.72382"/>
+		</Entity>
+		<Entity uid="3569">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="465.73731" z="610.36493"/>
+			<Orientation y="-1.11643"/>
+		</Entity>
+		<Entity uid="3570">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="467.03937" z="606.41211"/>
+			<Orientation y="-1.93801"/>
+		</Entity>
+		<Entity uid="3571">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1175.42823" z="1273.48383"/>
+			<Orientation y="0.05587"/>
+		</Entity>
+		<Entity uid="3572">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1171.0605" z="1273.89136"/>
+			<Orientation y="-3.28046"/>
+		</Entity>
+		<Entity uid="3573">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1214.38825" z="1288.87989"/>
+			<Orientation y="0.52617"/>
+		</Entity>
+		<Entity uid="3574">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1215.48267" z="1293.04914"/>
+			<Orientation y="0.04378"/>
+		</Entity>
+		<Entity uid="3575">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="497.83118" z="942.13001"/>
+			<Orientation y="0.3158"/>
+		</Entity>
+		<Entity uid="3576">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1190.39142" z="1218.52741"/>
+			<Orientation y="-0.92786"/>
+		</Entity>
+		<Entity uid="3577">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1196.235" z="1216.35535"/>
+			<Orientation y="-0.03553"/>
+		</Entity>
+		<Entity uid="3578">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="750.1164" z="420.61005"/>
+			<Orientation y="-3.0205"/>
+		</Entity>
+		<Entity uid="3579">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="750.48273" z="425.50702"/>
+			<Orientation y="-0.19018"/>
+		</Entity>
+		<Entity uid="3580">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1438.41688" z="876.07972"/>
+			<Orientation y="-3.29226"/>
+		</Entity>
+		<Entity uid="3581">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1434.69056" z="878.19428"/>
+			<Orientation y="0.32674"/>
+		</Entity>
+		<Entity uid="3582">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="790.94312" z="737.31232"/>
+			<Orientation y="0.04241"/>
+		</Entity>
+		<Entity uid="3583">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="723.25934" z="986.29371"/>
+			<Orientation y="0.55568"/>
+		</Entity>
+		<Entity uid="3584">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="719.9159" z="989.02411"/>
+			<Orientation y="1.04465"/>
+		</Entity>
+		<Entity uid="3585">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1185.46595" z="793.227"/>
+			<Orientation y="-1.69072"/>
+		</Entity>
+		<Entity uid="3586">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1184.99177" z="788.5589"/>
+			<Orientation y="-2.25422"/>
+		</Entity>
+		<Entity uid="3587">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="892.62684" z="1035.88184"/>
+			<Orientation y="-2.83953"/>
+		</Entity>
+		<Entity uid="3588">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="890.102" z="1039.28156"/>
+			<Orientation y="-4.68816"/>
+		</Entity>
+		<Entity uid="3589">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="729.25135" z="975.37525"/>
+			<Orientation y="-4.36902"/>
+		</Entity>
+		<Entity uid="3590">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="730.47254" z="971.06165"/>
+			<Orientation y="-2.16314"/>
+		</Entity>
+		<Entity uid="3591">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="536.17554" z="902.35053"/>
+			<Orientation y="-0.24207"/>
+		</Entity>
+		<Entity uid="3592">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="533.06775" z="899.01484"/>
+			<Orientation y="-3.99338"/>
+		</Entity>
+		<Entity uid="3593">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1178.9809" z="531.78742"/>
+			<Orientation y="0.07375"/>
+		</Entity>
+		<Entity uid="3594">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1155.73023" z="699.11377"/>
+			<Orientation y="-2.44932"/>
+		</Entity>
+		<Entity uid="3595">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1421.93604" z="650.08155"/>
+			<Orientation y="-0.74537"/>
+		</Entity>
+		<Entity uid="3596">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1161.96583" z="966.8694"/>
+			<Orientation y="1.06399"/>
+		</Entity>
+		<Entity uid="3597">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1164.1623" z="973.14039"/>
+			<Orientation y="-0.32186"/>
+		</Entity>
+		<Entity uid="3598">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="826.86487" z="701.73914"/>
+			<Orientation y="-0.6428"/>
+		</Entity>
+		<Entity uid="3599">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="915.6297" z="720.4499"/>
+			<Orientation y="0.93844"/>
+		</Entity>
+		<Entity uid="3600">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="911.92182" z="723.15394"/>
+			<Orientation y="0.50605"/>
+		</Entity>
+		<Entity uid="3601">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="861.16681" z="1053.36121"/>
+			<Orientation y="-2.10586"/>
+		</Entity>
+		<Entity uid="3602">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="864.53595" z="1055.62818"/>
+			<Orientation y="1.09864"/>
+		</Entity>
+		<Entity uid="3603">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="859.5323" z="1057.08967"/>
+			<Orientation y="-2.10787"/>
+		</Entity>
+		<Entity uid="3604">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="578.68207" z="730.9845"/>
+			<Orientation y="-1.78173"/>
+		</Entity>
+		<Entity uid="3605">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="574.43384" z="728.31702"/>
+			<Orientation y="-2.18792"/>
+		</Entity>
+		<Entity uid="3606">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1030.05536" z="670.02808"/>
+			<Orientation y="-3.3521"/>
+		</Entity>
+		<Entity uid="3607">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="908.84607" z="1075.15192"/>
+			<Orientation y="-1.6479"/>
+		</Entity>
+		<Entity uid="3608">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1035.57026" z="1181.12049"/>
+			<Orientation y="0.01806"/>
+		</Entity>
+		<Entity uid="3609">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1038.63294" z="1178.05884"/>
+			<Orientation y="-3.93505"/>
+		</Entity>
+		<Entity uid="3610">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="714.28614" z="1393.54859"/>
+			<Orientation y="-2.64678"/>
+		</Entity>
+		<Entity uid="3611">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="901.93409" z="722.09705"/>
+			<Orientation y="-3.32982"/>
+		</Entity>
+		<Entity uid="3612">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="964.1153" z="208.4402"/>
+			<Orientation y="-1.22361"/>
+		</Entity>
+		<Entity uid="3613">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="864.80634" z="441.86548"/>
+			<Orientation y="-3.34478"/>
+		</Entity>
+		<Entity uid="3614">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="858.61872" z="442.47004"/>
+			<Orientation y="-0.39025"/>
+		</Entity>
+		<Entity uid="3615">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="725.77692" z="1246.21692"/>
+			<Orientation y="1.46074"/>
+		</Entity>
+		<Entity uid="3616">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="723.3614" z="1250.30665"/>
+			<Orientation y="-3.8805"/>
+		</Entity>
+		<Entity uid="3617">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="729.46473" z="1250.0547"/>
+			<Orientation y="-4.28862"/>
+		</Entity>
+		<Entity uid="3618">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="550.4308" z="1134.4856"/>
+			<Orientation y="-2.23378"/>
+		</Entity>
+		<Entity uid="3619">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="546.77442" z="1132.51471"/>
+			<Orientation y="-3.99422"/>
+		</Entity>
+		<Entity uid="3620">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="890.34595" z="579.3747"/>
+			<Orientation y="-4.1543"/>
+		</Entity>
+		<Entity uid="3621">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="887.37586" z="574.38251"/>
+			<Orientation y="-3.87848"/>
+		</Entity>
+		<Entity uid="3622">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="901.33991" z="1049.84675"/>
+			<Orientation y="0.95168"/>
+		</Entity>
+		<Entity uid="3623">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="906.55433" z="1052.20838"/>
+			<Orientation y="-2.535"/>
+		</Entity>
+		<Entity uid="3624">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="897.41163" z="1054.73566"/>
+			<Orientation y="-4.47991"/>
+		</Entity>
+		<Entity uid="3625">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="492.98536" z="608.1435"/>
+			<Orientation y="-0.21108"/>
+		</Entity>
+		<Entity uid="3626">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="496.99701" z="603.64716"/>
+			<Orientation y="-0.23052"/>
+		</Entity>
+		<Entity uid="3627">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="488.32044" z="607.07026"/>
+			<Orientation y="-4.00855"/>
+		</Entity>
+		<Entity uid="3628">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="492.89802" z="601.1048"/>
+			<Orientation y="1.56922"/>
+		</Entity>
+		<Entity uid="3629">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1357.88935" z="1012.56653"/>
+			<Orientation y="-0.80697"/>
+		</Entity>
+		<Entity uid="3630">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1352.2234" z="1006.48243"/>
+			<Orientation y="-0.7642"/>
+		</Entity>
+		<Entity uid="3631">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1356.85096" z="1003.01258"/>
+			<Orientation y="-4.1813"/>
+		</Entity>
+		<Entity uid="3632">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1362.29426" z="1011.59723"/>
+			<Orientation y="-2.27675"/>
+		</Entity>
+		<Entity uid="3633">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="924.91193" z="916.60724"/>
+			<Orientation y="-1.63161"/>
+		</Entity>
+		<Entity uid="3634">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="926.86872" z="921.0683"/>
+			<Orientation y="-2.31298"/>
+		</Entity>
+		<Entity uid="3635">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="919.04096" z="914.4596"/>
+			<Orientation y="-4.06835"/>
+		</Entity>
+		<Entity uid="3636">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="778.3667" z="1281.58045"/>
+			<Orientation y="0.52797"/>
+		</Entity>
+		<Entity uid="3637">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="778.52497" z="1285.92762"/>
+			<Orientation y="0.17513"/>
+		</Entity>
+		<Entity uid="3638">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="774.83844" z="1279.2414"/>
+			<Orientation y="-3.82854"/>
+		</Entity>
+		<Entity uid="3639">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="777.64185" z="1275.5896"/>
+			<Orientation y="-2.82081"/>
+		</Entity>
+		<Entity uid="3640">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="783.10181" z="1284.03895"/>
+			<Orientation y="-3.73653"/>
+		</Entity>
+		<Entity uid="3641">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1461.05835" z="1069.73249"/>
+			<Orientation y="-0.61867"/>
+		</Entity>
+		<Entity uid="3642">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1465.7823" z="1070.1548"/>
+			<Orientation y="0.74938"/>
+		</Entity>
+		<Entity uid="3643">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1460.48017" z="1062.55353"/>
+			<Orientation y="-3.85802"/>
+		</Entity>
+		<Entity uid="3644">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="851.56104" z="881.21528"/>
+			<Orientation y="-0.1241"/>
+		</Entity>
+		<Entity uid="3645">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="853.36255" z="875.46021"/>
+			<Orientation y="-1.71622"/>
+		</Entity>
+		<Entity uid="3646">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="842.07136" z="878.45331"/>
+			<Orientation y="-4.6015"/>
+		</Entity>
+		<Entity uid="3647">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="931.77546" z="509.15656"/>
+			<Orientation y="-1.91147"/>
+		</Entity>
+		<Entity uid="3648">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="941.44861" z="507.28486"/>
+			<Orientation y="-0.17537"/>
+		</Entity>
+		<Entity uid="3649">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="967.49628" z="1281.04084"/>
+			<Orientation y="-0.38645"/>
+		</Entity>
+		<Entity uid="3650">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="964.98072" z="1277.1681"/>
+			<Orientation y="-1.50808"/>
+		</Entity>
+		<Entity uid="3651">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="969.62293" z="1276.25501"/>
+			<Orientation y="-0.14557"/>
+		</Entity>
+		<Entity uid="3652">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="438.70612" z="878.01899"/>
+			<Orientation y="0.17467"/>
+		</Entity>
+		<Entity uid="3653">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="433.62903" z="875.88935"/>
+			<Orientation y="-0.60224"/>
+		</Entity>
+		<Entity uid="3654">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="339.23084" z="884.85553"/>
+			<Orientation y="-0.10953"/>
+		</Entity>
+		<Entity uid="3655">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="337.80127" z="888.98627"/>
+			<Orientation y="0.10685"/>
+		</Entity>
+		<Entity uid="3656">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="337.69568" z="893.23285"/>
+			<Orientation y="-2.93895"/>
+		</Entity>
+		<Entity uid="3657">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="332.42554" z="884.65381"/>
+			<Orientation y="-0.24962"/>
+		</Entity>
+		<Entity uid="3658">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1247.646" z="591.21705"/>
+			<Orientation y="0.54918"/>
+		</Entity>
+		<Entity uid="3659">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1243.30042" z="597.19501"/>
+			<Orientation y="-1.3262"/>
+		</Entity>
+		<Entity uid="3660">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1250.35785" z="599.95575"/>
+			<Orientation y="1.02971"/>
+		</Entity>
+		<Entity uid="3661">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1382.761" z="841.0633"/>
+			<Orientation y="-1.18248"/>
+		</Entity>
+		<Entity uid="3662">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1386.23072" z="836.32734"/>
+			<Orientation y="-1.06891"/>
+		</Entity>
+		<Entity uid="3663">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1379.54633" z="844.55066"/>
+			<Orientation y="-2.34734"/>
+		</Entity>
+		<Entity uid="3664">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="960.06385" z="486.53388"/>
+			<Orientation y="-3.44846"/>
+		</Entity>
+		<Entity uid="3665">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="956.64264" z="491.37391"/>
+			<Orientation y="0.59092"/>
+		</Entity>
+		<Entity uid="3666">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="964.01795" z="487.24634"/>
+			<Orientation y="-0.33188"/>
+		</Entity>
+		<Entity uid="3667">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="956.49915" z="482.64545"/>
+			<Orientation y="-4.55575"/>
+		</Entity>
+		<Entity uid="3668">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="563.39765" z="984.3022"/>
+			<Orientation y="-1.11118"/>
+		</Entity>
+		<Entity uid="3669">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="567.57447" z="981.54053"/>
+			<Orientation y="-3.91915"/>
+		</Entity>
+		<Entity uid="3670">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="959.10969" z="913.80237"/>
+			<Orientation y="-1.00922"/>
+		</Entity>
+		<Entity uid="3671">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="957.13996" z="910.1283"/>
+			<Orientation y="0.24355"/>
+		</Entity>
+		<Entity uid="3672">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="960.65137" z="907.25147"/>
+			<Orientation y="-3.51667"/>
+		</Entity>
+		<Entity uid="3673">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="952.22504" z="914.54047"/>
+			<Orientation y="-4.29291"/>
+		</Entity>
+		<Entity uid="3674">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1121.86402" z="1294.24805"/>
+			<Orientation y="-4.21383"/>
+		</Entity>
+		<Entity uid="3675">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1126.72046" z="1290.20594"/>
+			<Orientation y="-3.27727"/>
+		</Entity>
+		<Entity uid="3676">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1119.22571" z="1289.35871"/>
+			<Orientation y="1.49402"/>
+		</Entity>
+		<Entity uid="3677">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1125.60218" z="1297.18757"/>
+			<Orientation y="1.35041"/>
+		</Entity>
+		<Entity uid="3678">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="873.99598" z="1198.42914"/>
+			<Orientation y="-0.01282"/>
+		</Entity>
+		<Entity uid="3679">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="869.33851" z="1202.99585"/>
+			<Orientation y="-0.03438"/>
+		</Entity>
+		<Entity uid="3680">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="872.48267" z="1191.42548"/>
+			<Orientation y="-1.50431"/>
+		</Entity>
+		<Entity uid="3681">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="1285.91883" z="838.96955"/>
+			<Orientation y="0.92798"/>
+		</Entity>
+		<Entity uid="3682">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1282.57374" z="844.48304"/>
+			<Orientation y="0.29313"/>
+		</Entity>
+		<Entity uid="3683">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="1280.77503" z="832.63556"/>
+			<Orientation y="-1.00608"/>
+		</Entity>
+		<Entity uid="3684">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="890.36402" z="988.58161"/>
+			<Orientation y="-1.95434"/>
+		</Entity>
+		<Entity uid="3685">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="885.34223" z="986.69648"/>
+			<Orientation y="-0.44721"/>
+		</Entity>
+		<Entity uid="3686">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="887.17774" z="993.57508"/>
+			<Orientation y="-0.128"/>
+		</Entity>
+		<Entity uid="3687">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="389.07514" z="1089.40735"/>
+			<Orientation y="-4.16857"/>
+		</Entity>
+		<Entity uid="3688">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="392.97315" z="1088.44196"/>
+			<Orientation y="0.0081"/>
+		</Entity>
+		<Entity uid="3689">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="388.48725" z="1094.05268"/>
+			<Orientation y="-0.83301"/>
+		</Entity>
+		<Entity uid="3690">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="396.85828" z="1093.13062"/>
+			<Orientation y="-3.19538"/>
+		</Entity>
+		<Entity uid="3691">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="485.4004" z="1222.2906"/>
+			<Orientation y="-2.1401"/>
+		</Entity>
+		<Entity uid="3692">
+			<Template>actor|geology/stone_granite_large.xml</Template>
+			<Position x="481.61194" z="1220.07575"/>
+			<Orientation y="-2.93085"/>
+		</Entity>
+		<Entity uid="3693">
+			<Template>actor|geology/stone_granite_med.xml</Template>
+			<Position x="475.9911" z="1220.65137"/>
+			<Orientation y="-1.68987"/>
+		</Entity>
+		<Entity uid="3695">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="248.30646" z="791.98914"/>
+			<Orientation y="-2.90758"/>
+		</Entity>
+		<Entity uid="3744">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="257.25348" z="804.3017"/>
+			<Orientation y="-3.30323"/>
+		</Entity>
+		<Entity uid="3745">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="257.73823" z="799.07837"/>
+			<Orientation y="-3.70226"/>
+		</Entity>
+		<Entity uid="4000">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="422.9181" z="604.99653"/>
+			<Orientation y="-2.7669"/>
+		</Entity>
+		<Entity uid="4001">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="413.01642" z="608.24262"/>
+			<Orientation y="-3.4433"/>
+		</Entity>
+		<Entity uid="4002">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="424.32343" z="609.10163"/>
+			<Orientation y="-1.55347"/>
+		</Entity>
+		<Entity uid="4003">
+			<Template>actor|props/flora/grass_soft_large.xml</Template>
+			<Position x="417.09095" z="594.74952"/>
+			<Orientation y="-0.0283"/>
+		</Entity>
+		<Entity uid="4051">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="845.95551" z="594.89942"/>
+			<Orientation y="-1.97709"/>
+		</Entity>
+		<Entity uid="4052">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="838.62555" z="595.4947"/>
+			<Orientation y="-0.7958"/>
+		</Entity>
+		<Entity uid="4053">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="848.1645" z="599.18921"/>
+			<Orientation y="-3.66631"/>
+		</Entity>
+		<Entity uid="4054">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="852.45374" z="594.85016"/>
+			<Orientation y="0.58973"/>
+		</Entity>
+		<Entity uid="4055">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="840.06141" z="589.98987"/>
+			<Orientation y="0.2242"/>
+		</Entity>
+		<Entity uid="4056">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1409.00586" z="808.40143"/>
+			<Orientation y="0.05196"/>
+		</Entity>
+		<Entity uid="4057">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1413.02601" z="815.63044"/>
+			<Orientation y="-1.52619"/>
+		</Entity>
+		<Entity uid="4058">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1406.95582" z="813.82166"/>
+			<Orientation y="-0.78914"/>
+		</Entity>
+		<Entity uid="4059">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1420.31092" z="811.45087"/>
+			<Orientation y="1.33538"/>
+		</Entity>
+		<Entity uid="4060">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1414.44562" z="809.11805"/>
+			<Orientation y="-1.10892"/>
+		</Entity>
+		<Entity uid="4061">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1331.24347" z="865.79816"/>
+			<Orientation y="-3.17287"/>
+		</Entity>
+		<Entity uid="4062">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1322.42225" z="868.13953"/>
+			<Orientation y="-2.22706"/>
+		</Entity>
+		<Entity uid="4063">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1328.31165" z="860.61915"/>
+			<Orientation y="0.42258"/>
+		</Entity>
+		<Entity uid="4064">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1326.0655" z="870.64081"/>
+			<Orientation y="-1.1246"/>
+		</Entity>
+		<Entity uid="4065">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1330.32447" z="872.23407"/>
+			<Orientation y="0.73937"/>
+		</Entity>
+		<Entity uid="4066">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1012.15845" z="1068.50532"/>
+			<Orientation y="-0.31751"/>
+		</Entity>
+		<Entity uid="4067">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1007.2397" z="1069.60303"/>
+			<Orientation y="-4.00467"/>
+		</Entity>
+		<Entity uid="4068">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1013.65448" z="1059.1222"/>
+			<Orientation y="-2.4551"/>
+		</Entity>
+		<Entity uid="4069">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="813.05414" z="737.94971"/>
+			<Orientation y="0.79628"/>
+		</Entity>
+		<Entity uid="4070">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="817.40821" z="739.685"/>
+			<Orientation y="-2.80413"/>
+		</Entity>
+		<Entity uid="4071">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="821.40998" z="742.01685"/>
+			<Orientation y="-0.35335"/>
+		</Entity>
+		<Entity uid="4072">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="819.70777" z="735.8617"/>
+			<Orientation y="0.71695"/>
+		</Entity>
+		<Entity uid="4073">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="990.78162" z="517.87641"/>
+			<Orientation y="-3.20089"/>
+		</Entity>
+		<Entity uid="4074">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="987.84125" z="513.69733"/>
+			<Orientation y="-2.73505"/>
+		</Entity>
+		<Entity uid="4075">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1000.56568" z="513.55768"/>
+			<Orientation y="-2.20907"/>
+		</Entity>
+		<Entity uid="4076">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="997.93635" z="509.84473"/>
+			<Orientation y="-0.09786"/>
+		</Entity>
+		<Entity uid="4077">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="944.02692" z="1161.67157"/>
+			<Orientation y="-4.26276"/>
+		</Entity>
+		<Entity uid="4078">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="948.55964" z="1166.63611"/>
+			<Orientation y="-3.62938"/>
+		</Entity>
+		<Entity uid="4079">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="956.71381" z="1165.67713"/>
+			<Orientation y="-0.31334"/>
+		</Entity>
+		<Entity uid="4080">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="953.23816" z="1163.2801"/>
+			<Orientation y="-1.84466"/>
+		</Entity>
+		<Entity uid="4081">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="795.8144" z="411.73157"/>
+			<Orientation y="-3.90151"/>
+		</Entity>
+		<Entity uid="4082">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="800.03675" z="413.86524"/>
+			<Orientation y="-0.23772"/>
+		</Entity>
+		<Entity uid="4083">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="796.16486" z="406.55909"/>
+			<Orientation y="-3.35625"/>
+		</Entity>
+		<Entity uid="4084">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="802.42469" z="409.50257"/>
+			<Orientation y="-3.61142"/>
+		</Entity>
+		<Entity uid="4085">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="802.94538" z="419.99286"/>
+			<Orientation y="-4.10686"/>
+		</Entity>
+		<Entity uid="4086">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="797.05158" z="418.54468"/>
+			<Orientation y="-1.75571"/>
+		</Entity>
+		<Entity uid="4087">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1062.18818" z="680.83338"/>
+			<Orientation y="0.36371"/>
+		</Entity>
+		<Entity uid="4088">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1057.3216" z="684.20411"/>
+			<Orientation y="-1.1777"/>
+		</Entity>
+		<Entity uid="4089">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1066.63862" z="685.48377"/>
+			<Orientation y="-2.31096"/>
+		</Entity>
+		<Entity uid="4090">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1054.7121" z="680.08155"/>
+			<Orientation y="-1.17634"/>
+		</Entity>
+		<Entity uid="4091">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1040.86811" z="1233.32679"/>
+			<Orientation y="-3.5291"/>
+		</Entity>
+		<Entity uid="4092">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1027.38453" z="1235.26563"/>
+			<Orientation y="-1.2129"/>
+		</Entity>
+		<Entity uid="4093">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1033.66803" z="1233.24866"/>
+			<Orientation y="0.86956"/>
+		</Entity>
+		<Entity uid="4094">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1038.41724" z="1240.66846"/>
+			<Orientation y="1.35802"/>
+		</Entity>
+		<Entity uid="4095">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="797.77155" z="908.54603"/>
+			<Orientation y="-3.72863"/>
+		</Entity>
+		<Entity uid="4096">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="794.03071" z="906.12787"/>
+			<Orientation y="-1.39196"/>
+		</Entity>
+		<Entity uid="4097">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="796.84351" z="900.65461"/>
+			<Orientation y="-4.42504"/>
+		</Entity>
+		<Entity uid="4098">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="369.11896" z="709.79181"/>
+			<Orientation y="0.99871"/>
+		</Entity>
+		<Entity uid="4099">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="361.49494" z="711.19916"/>
+			<Orientation y="-2.04902"/>
+		</Entity>
+		<Entity uid="4100">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="367.80866" z="705.00141"/>
+			<Orientation y="-2.1033"/>
+		</Entity>
+		<Entity uid="4101">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="521.58869" z="660.99012"/>
+			<Orientation y="-3.48955"/>
+		</Entity>
+		<Entity uid="4102">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="517.48334" z="660.66157"/>
+			<Orientation y="1.4638"/>
+		</Entity>
+		<Entity uid="4103">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="514.23481" z="657.42731"/>
+			<Orientation y="-3.70403"/>
+		</Entity>
+		<Entity uid="4104">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1112.24866" z="721.93573"/>
+			<Orientation y="-0.43764"/>
+		</Entity>
+		<Entity uid="4105">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1105.10431" z="715.69806"/>
+			<Orientation y="-1.44419"/>
+		</Entity>
+		<Entity uid="4106">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1105.49756" z="721.24024"/>
+			<Orientation y="-3.20034"/>
+		</Entity>
+		<Entity uid="4107">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1117.2765" z="723.49842"/>
+			<Orientation y="0.85645"/>
+		</Entity>
+		<Entity uid="4108">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1120.5683" z="1318.83576"/>
+			<Orientation y="-2.41204"/>
+		</Entity>
+		<Entity uid="4109">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1125.55" z="1321.26429"/>
+			<Orientation y="-0.67304"/>
+		</Entity>
+		<Entity uid="4110">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1121.80652" z="1326.7552"/>
+			<Orientation y="1.1564"/>
+		</Entity>
+		<Entity uid="4111">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1127.2223" z="1316.74177"/>
+			<Orientation y="-3.21906"/>
+		</Entity>
+		<Entity uid="4112">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="585.1875" z="1246.10846"/>
+			<Orientation y="-0.51345"/>
+		</Entity>
+		<Entity uid="4113">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="585.94214" z="1242.12098"/>
+			<Orientation y="0.80944"/>
+		</Entity>
+		<Entity uid="4114">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="580.41401" z="1244.47492"/>
+			<Orientation y="0.80495"/>
+		</Entity>
+		<Entity uid="4115">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="584.33167" z="1236.72162"/>
+			<Orientation y="-1.27034"/>
+		</Entity>
+		<Entity uid="4116">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="835.03718" z="721.2635"/>
+			<Orientation y="-1.27942"/>
+		</Entity>
+		<Entity uid="4117">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="830.00495" z="717.5677"/>
+			<Orientation y="-3.54773"/>
+		</Entity>
+		<Entity uid="4118">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="839.44587" z="716.71857"/>
+			<Orientation y="-2.0361"/>
+		</Entity>
+		<Entity uid="4119">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="833.32416" z="715.12275"/>
+			<Orientation y="-1.25388"/>
+		</Entity>
+		<Entity uid="4120">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="628.43702" z="1148.77094"/>
+			<Orientation y="0.14013"/>
+		</Entity>
+		<Entity uid="4121">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="632.89026" z="1144.55158"/>
+			<Orientation y="-1.94922"/>
+		</Entity>
+		<Entity uid="4122">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="627.48383" z="1142.73755"/>
+			<Orientation y="-1.35969"/>
+		</Entity>
+		<Entity uid="4123">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="628.18061" z="1138.48536"/>
+			<Orientation y="-3.74259"/>
+		</Entity>
+		<Entity uid="4124">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="616.17066" z="1153.49592"/>
+			<Orientation y="1.0661"/>
+		</Entity>
+		<Entity uid="4125">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="617.95282" z="1149.83143"/>
+			<Orientation y="-4.21247"/>
+		</Entity>
+		<Entity uid="4126">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="623.77491" z="1154.97364"/>
+			<Orientation y="0.81995"/>
+		</Entity>
+		<Entity uid="4127">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="611.95246" z="1148.32477"/>
+			<Orientation y="-0.97493"/>
+		</Entity>
+		<Entity uid="4128">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="618.59253" z="1143.09864"/>
+			<Orientation y="-2.23363"/>
+		</Entity>
+		<Entity uid="4129">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1460.15699" z="650.38056"/>
+			<Orientation y="-4.0628"/>
+		</Entity>
+		<Entity uid="4130">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1469.63257" z="653.0105"/>
+			<Orientation y="-1.343"/>
+		</Entity>
+		<Entity uid="4131">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1464.09198" z="649.38196"/>
+			<Orientation y="-1.16698"/>
+		</Entity>
+		<Entity uid="4132">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1464.87415" z="655.14063"/>
+			<Orientation y="0.7483"/>
+		</Entity>
+		<Entity uid="4133">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1464.7262" z="643.36628"/>
+			<Orientation y="-4.3184"/>
+		</Entity>
+		<Entity uid="4134">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="881.40589" z="831.65827"/>
+			<Orientation y="-3.58645"/>
+		</Entity>
+		<Entity uid="4135">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="874.26087" z="829.23755"/>
+			<Orientation y="-1.3097"/>
+		</Entity>
+		<Entity uid="4136">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="882.7251" z="824.42865"/>
+			<Orientation y="0.34943"/>
+		</Entity>
+		<Entity uid="4137">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="877.05237" z="824.73737"/>
+			<Orientation y="0.0107"/>
+		</Entity>
+		<Entity uid="4138">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="587.06562" z="671.9427"/>
+			<Orientation y="-2.85793"/>
+		</Entity>
+		<Entity uid="4139">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="591.96027" z="664.57947"/>
+			<Orientation y="-4.48539"/>
+		</Entity>
+		<Entity uid="4140">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="591.41645" z="669.8816"/>
+			<Orientation y="-0.71561"/>
+		</Entity>
+		<Entity uid="4141">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1016.06836" z="1002.56861"/>
+			<Orientation y="0.5138"/>
+		</Entity>
+		<Entity uid="4142">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1018.77363" z="1011.40632"/>
+			<Orientation y="-2.37978"/>
+		</Entity>
+		<Entity uid="4143">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1011.05066" z="1002.37714"/>
+			<Orientation y="-3.11184"/>
+		</Entity>
+		<Entity uid="4144">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1014.17792" z="1009.76215"/>
+			<Orientation y="0.86419"/>
+		</Entity>
+		<Entity uid="4145">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1011.79871" z="1006.4242"/>
+			<Orientation y="-2.74091"/>
+		</Entity>
+		<Entity uid="4146">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1187.79053" z="1125.13245"/>
+			<Orientation y="-3.45191"/>
+		</Entity>
+		<Entity uid="4147">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1190.7364" z="1121.17682"/>
+			<Orientation y="-4.43476"/>
+		</Entity>
+		<Entity uid="4148">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1185.6753" z="1112.64271"/>
+			<Orientation y="-2.23983"/>
+		</Entity>
+		<Entity uid="4149">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1189.49842" z="1117.33729"/>
+			<Orientation y="-3.63212"/>
+		</Entity>
+		<Entity uid="4150">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1185.68635" z="1121.25287"/>
+			<Orientation y="-3.69007"/>
+		</Entity>
+		<Entity uid="4151">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="658.39625" z="1317.62458"/>
+			<Orientation y="-1.82917"/>
+		</Entity>
+		<Entity uid="4152">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="662.20624" z="1312.37244"/>
+			<Orientation y="-1.97696"/>
+		</Entity>
+		<Entity uid="4153">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="654.2771" z="1316.7151"/>
+			<Orientation y="0.1052"/>
+		</Entity>
+		<Entity uid="4154">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="655.51008" z="1321.60016"/>
+			<Orientation y="-2.36205"/>
+		</Entity>
+		<Entity uid="4155">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="664.92304" z="1316.54682"/>
+			<Orientation y="-0.90081"/>
+		</Entity>
+		<Entity uid="4156">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="866.96351" z="564.69788"/>
+			<Orientation y="-0.15719"/>
+		</Entity>
+		<Entity uid="4157">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="860.65638" z="562.02851"/>
+			<Orientation y="-4.40113"/>
+		</Entity>
+		<Entity uid="4158">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="863.1344" z="558.3902"/>
+			<Orientation y="-1.6495"/>
+		</Entity>
+		<Entity uid="4159">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="546.4579" z="1236.32575"/>
+			<Orientation y="-1.31843"/>
+		</Entity>
+		<Entity uid="4160">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="545.48084" z="1242.2912"/>
+			<Orientation y="0.46898"/>
+		</Entity>
+		<Entity uid="4161">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="542.64264" z="1249.125"/>
+			<Orientation y="1.2834"/>
+		</Entity>
+		<Entity uid="4162">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="550.85193" z="1236.3647"/>
+			<Orientation y="0.34516"/>
+		</Entity>
+		<Entity uid="4163">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1080.16651" z="461.28266"/>
+			<Orientation y="-2.02881"/>
+		</Entity>
+		<Entity uid="4164">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1071.77094" z="461.67072"/>
+			<Orientation y="-3.95223"/>
+		</Entity>
+		<Entity uid="4165">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1081.35218" z="465.72168"/>
+			<Orientation y="-2.28795"/>
+		</Entity>
+		<Entity uid="4166">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1076.02924" z="457.11603"/>
+			<Orientation y="-2.03298"/>
+		</Entity>
+		<Entity uid="4167">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1326.9209" z="603.74421"/>
+			<Orientation y="1.46984"/>
+		</Entity>
+		<Entity uid="4168">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1325.56263" z="598.73371"/>
+			<Orientation y="-1.09675"/>
+		</Entity>
+		<Entity uid="4169">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1330.99549" z="598.00532"/>
+			<Orientation y="-4.48223"/>
+		</Entity>
+		<Entity uid="4170">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1334.74659" z="595.64893"/>
+			<Orientation y="-3.19452"/>
+		</Entity>
+		<Entity uid="4171">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1146.65717" z="1151.64393"/>
+			<Orientation y="1.2807"/>
+		</Entity>
+		<Entity uid="4172">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1148.88074" z="1143.35334"/>
+			<Orientation y="-2.74228"/>
+		</Entity>
+		<Entity uid="4173">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1138.38917" z="1151.14502"/>
+			<Orientation y="-2.80233"/>
+		</Entity>
+		<Entity uid="4174">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1153.01661" z="1153.29841"/>
+			<Orientation y="-0.65464"/>
+		</Entity>
+		<Entity uid="4175">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1142.75171" z="1144.91187"/>
+			<Orientation y="1.48755"/>
+		</Entity>
+		<Entity uid="4176">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1150.63575" z="1148.95691"/>
+			<Orientation y="-4.26886"/>
+		</Entity>
+		<Entity uid="4177">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="576.12171" z="1032.19776"/>
+			<Orientation y="-3.32696"/>
+		</Entity>
+		<Entity uid="4178">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="577.22242" z="1040.45856"/>
+			<Orientation y="1.03734"/>
+		</Entity>
+		<Entity uid="4179">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="573.28644" z="1037.36866"/>
+			<Orientation y="-4.4669"/>
+		</Entity>
+		<Entity uid="4180">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="570.06843" z="1034.67261"/>
+			<Orientation y="-1.93055"/>
+		</Entity>
+		<Entity uid="4181">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="574.49756" z="1044.37201"/>
+			<Orientation y="-0.96229"/>
+		</Entity>
+		<Entity uid="4182">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1360.2735" z="966.41034"/>
+			<Orientation y="-3.08318"/>
+		</Entity>
+		<Entity uid="4183">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1371.32428" z="964.79261"/>
+			<Orientation y="-2.0604"/>
+		</Entity>
+		<Entity uid="4184">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1368.49366" z="973.08552"/>
+			<Orientation y="-0.53862"/>
+		</Entity>
+		<Entity uid="4185">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1366.05036" z="965.92438"/>
+			<Orientation y="0.50113"/>
+		</Entity>
+		<Entity uid="4186">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1362.9593" z="961.27997"/>
+			<Orientation y="-1.16636"/>
+		</Entity>
+		<Entity uid="4187">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="969.67298" z="385.55835"/>
+			<Orientation y="-4.22185"/>
+		</Entity>
+		<Entity uid="4188">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="965.01539" z="383.28437"/>
+			<Orientation y="-1.78637"/>
+		</Entity>
+		<Entity uid="4189">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="973.44825" z="379.50373"/>
+			<Orientation y="-4.21195"/>
+		</Entity>
+		<Entity uid="4190">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1423.80951" z="1004.27887"/>
+			<Orientation y="-4.45548"/>
+		</Entity>
+		<Entity uid="4191">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1433.20173" z="1007.46186"/>
+			<Orientation y="-4.3024"/>
+		</Entity>
+		<Entity uid="4192">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1427.60663" z="1009.8979"/>
+			<Orientation y="-0.85813"/>
+		</Entity>
+		<Entity uid="4193">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1428.76935" z="1003.96949"/>
+			<Orientation y="-2.22353"/>
+		</Entity>
+		<Entity uid="4194">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1241.80335" z="1399.956"/>
+			<Orientation y="-3.04824"/>
+		</Entity>
+		<Entity uid="4195">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1245.40564" z="1396.54621"/>
+			<Orientation y="-0.34818"/>
+		</Entity>
+		<Entity uid="4196">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1243.33722" z="1392.66504"/>
+			<Orientation y="-3.0956"/>
+		</Entity>
+		<Entity uid="4197">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1462.29133" z="668.59192"/>
+			<Orientation y="-2.69628"/>
+		</Entity>
+		<Entity uid="4198">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1456.40265" z="666.39985"/>
+			<Orientation y="-0.9242"/>
+		</Entity>
+		<Entity uid="4199">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1459.62421" z="672.81263"/>
+			<Orientation y="0.21486"/>
+		</Entity>
+		<Entity uid="4200">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1458.91175" z="662.76203"/>
+			<Orientation y="-3.27045"/>
+		</Entity>
+		<Entity uid="4201">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="693.20582" z="1101.87946"/>
+			<Orientation y="-4.25933"/>
+		</Entity>
+		<Entity uid="4202">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="690.83661" z="1097.1836"/>
+			<Orientation y="0.07326"/>
+		</Entity>
+		<Entity uid="4203">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="689.10315" z="1105.84388"/>
+			<Orientation y="-4.34096"/>
+		</Entity>
+		<Entity uid="4204">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="687.32563" z="1090.83619"/>
+			<Orientation y="-3.35817"/>
+		</Entity>
+		<Entity uid="4205">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1025.79126" z="968.94611"/>
+			<Orientation y="-2.85596"/>
+		</Entity>
+		<Entity uid="4206">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1019.784" z="966.80317"/>
+			<Orientation y="1.47463"/>
+		</Entity>
+		<Entity uid="4207">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1025.29114" z="961.43006"/>
+			<Orientation y="-4.1304"/>
+		</Entity>
+		<Entity uid="4208">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1338.35041" z="1202.00458"/>
+			<Orientation y="-1.64988"/>
+		</Entity>
+		<Entity uid="4209">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1340.31373" z="1206.46021"/>
+			<Orientation y="-3.25034"/>
+		</Entity>
+		<Entity uid="4210">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1343.4994" z="1210.35102"/>
+			<Orientation y="-0.02678"/>
+		</Entity>
+		<Entity uid="4211">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1346.89032" z="1200.64515"/>
+			<Orientation y="-3.25873"/>
+		</Entity>
+		<Entity uid="4212">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1349.04572" z="1205.2281"/>
+			<Orientation y="-4.01142"/>
+		</Entity>
+		<Entity uid="4213">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="834.862" z="609.40674"/>
+			<Orientation y="-3.65751"/>
+		</Entity>
+		<Entity uid="4214">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="827.35242" z="600.84791"/>
+			<Orientation y="-1.73794"/>
+		</Entity>
+		<Entity uid="4215">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="832.16907" z="603.84821"/>
+			<Orientation y="-3.50358"/>
+		</Entity>
+		<Entity uid="4216">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="828.56415" z="607.42054"/>
+			<Orientation y="1.17106"/>
+		</Entity>
+		<Entity uid="4217">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="830.7516" z="612.18616"/>
+			<Orientation y="0.22323"/>
+		</Entity>
+		<Entity uid="4218">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="824.03772" z="606.4084"/>
+			<Orientation y="-3.10535"/>
+		</Entity>
+		<Entity uid="4219">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1113.81324" z="1062.95661"/>
+			<Orientation y="-2.4852"/>
+		</Entity>
+		<Entity uid="4220">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1107.14448" z="1067.30671"/>
+			<Orientation y="-3.89733"/>
+		</Entity>
+		<Entity uid="4221">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1111.07673" z="1068.09003"/>
+			<Orientation y="0.14008"/>
+		</Entity>
+		<Entity uid="4222">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="669.24054" z="561.64557"/>
+			<Orientation y="0.4798"/>
+		</Entity>
+		<Entity uid="4223">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="663.67054" z="560.04578"/>
+			<Orientation y="0.14617"/>
+		</Entity>
+		<Entity uid="4224">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="673.62555" z="566.47022"/>
+			<Orientation y="-3.23002"/>
+		</Entity>
+		<Entity uid="4225">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="674.16169" z="560.54273"/>
+			<Orientation y="1.36791"/>
+		</Entity>
+		<Entity uid="4226">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1166.47822" z="932.7417"/>
+			<Orientation y="-3.1822"/>
+		</Entity>
+		<Entity uid="4227">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1160.41852" z="931.19593"/>
+			<Orientation y="-2.06054"/>
+		</Entity>
+		<Entity uid="4228">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1167.73853" z="928.76172"/>
+			<Orientation y="-1.28736"/>
+		</Entity>
+		<Entity uid="4229">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1167.12317" z="938.57886"/>
+			<Orientation y="1.54065"/>
+		</Entity>
+		<Entity uid="4230">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1194.64704" z="533.66016"/>
+			<Orientation y="-4.67948"/>
+		</Entity>
+		<Entity uid="4231">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1193.2746" z="538.6355"/>
+			<Orientation y="-3.83478"/>
+		</Entity>
+		<Entity uid="4232">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1199.64515" z="542.81684"/>
+			<Orientation y="-0.44535"/>
+		</Entity>
+		<Entity uid="4233">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1195.53834" z="543.44471"/>
+			<Orientation y="-2.8125"/>
+		</Entity>
+		<Entity uid="4234">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1197.49091" z="537.57197"/>
+			<Orientation y="-4.67067"/>
+		</Entity>
+		<Entity uid="4235">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="795.71778" z="1128.57496"/>
+			<Orientation y="-3.17913"/>
+		</Entity>
+		<Entity uid="4236">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="789.7928" z="1126.95942"/>
+			<Orientation y="-1.87293"/>
+		</Entity>
+		<Entity uid="4237">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="791.91193" z="1135.47785"/>
+			<Orientation y="-1.50928"/>
+		</Entity>
+		<Entity uid="4238">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="788.19135" z="1132.16785"/>
+			<Orientation y="-3.78666"/>
+		</Entity>
+		<Entity uid="4239">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="794.11121" z="1124.5417"/>
+			<Orientation y="-0.79183"/>
+		</Entity>
+		<Entity uid="4240">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="1467.19043" z="838.86127"/>
+			<Orientation y="0.90096"/>
+		</Entity>
+		<Entity uid="4241">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1473.08332" z="830.63813"/>
+			<Orientation y="-2.0688"/>
+		</Entity>
+		<Entity uid="4242">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="1465.71442" z="833.55"/>
+			<Orientation y="-1.93857"/>
+		</Entity>
+		<Entity uid="4243">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="434.91803" z="730.92908"/>
+			<Orientation y="0.93145"/>
+		</Entity>
+		<Entity uid="4244">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="432.49079" z="726.87372"/>
+			<Orientation y="-2.9428"/>
+		</Entity>
+		<Entity uid="4245">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="430.57691" z="732.85993"/>
+			<Orientation y="-3.41892"/>
+		</Entity>
+		<Entity uid="4246">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="872.84113" z="1017.4939"/>
+			<Orientation y="0.13906"/>
+		</Entity>
+		<Entity uid="4247">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="865.73456" z="1011.18616"/>
+			<Orientation y="-1.78083"/>
+		</Entity>
+		<Entity uid="4248">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="865.9748" z="1020.83295"/>
+			<Orientation y="-1.74642"/>
+		</Entity>
+		<Entity uid="4249">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="870.08686" z="1014.40223"/>
+			<Orientation y="-2.68172"/>
+		</Entity>
+		<Entity uid="4250">
+			<Template>actor|flora/trees/lavender_bush_01.xml</Template>
+			<Position x="874.00403" z="1008.86329"/>
+			<Orientation y="1.42441"/>
+		</Entity>
+		<Entity uid="4372">
+			<Template>gaia/fish/tuna</Template>
+			<Player>0</Player>
+			<Position x="1553.60395" z="595.32087"/>
+			<Orientation y="-4.5474"/>
+		</Entity>
+		<Entity uid="4373">
+			<Template>gaia/fish/tuna</Template>
+			<Player>0</Player>
+			<Position x="1545.79303" z="595.88611"/>
+			<Orientation y="-0.80372"/>
+		</Entity>
+		<Entity uid="4398">
+			<Template>gaia/fish/tuna</Template>
+			<Player>0</Player>
+			<Position x="1601.78724" z="720.1894"/>
+			<Orientation y="-1.44912"/>
+		</Entity>
+		<Entity uid="4399">
+			<Template>gaia/fish/tuna</Template>
+			<Player>0</Player>
+			<Position x="1604.10279" z="728.40113"/>
+			<Orientation y="-0.33361"/>
+		</Entity>
+		<Entity uid="4400">
+			<Template>gaia/fish/tuna</Template>
+			<Player>0</Player>
+			<Position x="1607.53046" z="717.26874"/>
+			<Orientation y="-3.3987"/>
+		</Entity>
+		<Entity uid="4486">
+			<Template>campaigns/campaign_city_minor_test</Template>
+			<Player>1</Player>
+			<Position x="863.149" z="501.55756"/>
+			<Orientation y="-2.72132"/>
+			<Actor seed="56153"/>
+		</Entity>
+		<Entity uid="4488">
+			<Template>campaigns/campaign_city_minor_test</Template>
+			<Player>2</Player>
+			<Position x="1157.47059" z="615.38819"/>
+			<Orientation y="-8.17353"/>
+			<Actor seed="56153"/>
+		</Entity>
+		<Entity uid="4489">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="983.41388" z="612.67536"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55260"/>
+		</Entity>
+		<Entity uid="4490">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="996.15021" z="651.08979"/>
+			<Orientation y="1.58071"/>
+			<Actor seed="64998"/>
+		</Entity>
+		<Entity uid="4491">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1003.51246" z="587.75"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42336"/>
+		</Entity>
+		<Entity uid="4492">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1009.19245" z="621.9823"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38606"/>
+		</Entity>
+		<Entity uid="4493">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1028.01233" z="528.93921"/>
+			<Orientation y="-2.75016"/>
+			<Actor seed="5444"/>
+		</Entity>
+		<Entity uid="4494">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="996.05744" z="561.17371"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38222"/>
+		</Entity>
+		<Entity uid="4495">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1022.6067" z="565.84192"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14019"/>
+		</Entity>
+		<Entity uid="4496">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1027.7262" z="500.13059"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="513"/>
+		</Entity>
+		<Entity uid="4497">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1024.7588" z="473.53251"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41199"/>
+		</Entity>
+		<Entity uid="4498">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1228.12012" z="470.63465"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="846"/>
+		</Entity>
+		<Entity uid="4499">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1259.9579" z="500.15876"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56575"/>
+		</Entity>
+		<Entity uid="4500">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1290.68287" z="536.81495"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5012"/>
+		</Entity>
+		<Entity uid="4501">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1323.78931" z="553.21875"/>
+			<Orientation y="1.9753"/>
+			<Actor seed="8414"/>
+		</Entity>
+		<Entity uid="4502">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1379.52369" z="577.7121"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8414"/>
+		</Entity>
+		<Entity uid="4503">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1321.74024" z="592.60291"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40583"/>
+		</Entity>
+		<Entity uid="4504">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1356.2798" z="548.18134"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40583"/>
+		</Entity>
+		<Entity uid="4505">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1338.39087" z="524.20533"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32583"/>
+		</Entity>
+		<Entity uid="4506">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1303.67054" z="567.51801"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41726"/>
+		</Entity>
+		<Entity uid="4507">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1312.2129" z="521.24091"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53013"/>
+		</Entity>
+		<Entity uid="4508">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1297.3783" z="585.26435"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41397"/>
+		</Entity>
+		<Entity uid="4509">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1341.57178" z="569.91529"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47697"/>
+		</Entity>
+		<Entity uid="4510">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1287.73255" z="511.06458"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57339"/>
+		</Entity>
+		<Entity uid="4511">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1226.42066" z="435.55848"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7595"/>
+		</Entity>
+		<Entity uid="4512">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1003.5428" z="540.24006"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54849"/>
+		</Entity>
+		<Entity uid="4513">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1007.79224" z="514.07953"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27666"/>
+		</Entity>
+		<Entity uid="4514">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="982.9574" z="593.6938"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15965"/>
+		</Entity>
+		<Entity uid="4515">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="958.35865" z="637.36304"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25870"/>
+		</Entity>
+		<Entity uid="4516">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="947.14838" z="651.49531"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21802"/>
+		</Entity>
+		<Entity uid="4517">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="974.12055" z="658.63202"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30039"/>
+		</Entity>
+		<Entity uid="4518">
+			<Template>territory_pulls/territory_pull_20</Template>
+			<Player>2</Player>
+			<Position x="1016.74817" z="670.42957"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51624"/>
+		</Entity>
+		<Entity uid="4519">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1072.02918" z="623.67493"/>
+			<Orientation y="2.88163"/>
+			<Actor seed="35833"/>
+		</Entity>
+		<Entity uid="4520">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1079.25464" z="633.35785"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56741"/>
+		</Entity>
+		<Entity uid="4521">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1079.20667" z="651.35749"/>
+			<Orientation y="1.76391"/>
+			<Actor seed="56741"/>
+		</Entity>
+		<Entity uid="4522">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1077.05115" z="643.13672"/>
+			<Orientation y="-2.20836"/>
+			<Actor seed="56741"/>
+		</Entity>
+		<Entity uid="4523">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1068.67127" z="632.72608"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24306"/>
+		</Entity>
+		<Entity uid="4524">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1070.56592" z="628.47156"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62036"/>
+		</Entity>
+		<Entity uid="4525">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1081.52686" z="615.28095"/>
+			<Orientation y="-0.35131"/>
+			<Actor seed="62036"/>
+		</Entity>
+		<Entity uid="4526">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1091.16675" z="644.43622"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60143"/>
+		</Entity>
+		<Entity uid="4527">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1082.07825" z="630.72107"/>
+			<Orientation y="-2.37093"/>
+			<Actor seed="60143"/>
+		</Entity>
+		<Entity uid="4528">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1076.12586" z="613.66681"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38021"/>
+		</Entity>
+		<Entity uid="4529">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1155.0381" z="522.05463"/>
+			<Orientation y="-1.30996"/>
+			<Actor seed="20960"/>
+		</Entity>
+		<Entity uid="4530">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1152.16797" z="531.23743"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58116"/>
+		</Entity>
+		<Entity uid="4531">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1146.77198" z="537.11725"/>
+			<Orientation y="1.92675"/>
+			<Actor seed="60698"/>
+		</Entity>
+		<Entity uid="4532">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1178.92042" z="543.66541"/>
+			<Orientation y="1.2405"/>
+			<Actor seed="60698"/>
+		</Entity>
+		<Entity uid="4533">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1191.12671" z="542.04236"/>
+			<Orientation y="-2.20067"/>
+			<Actor seed="60698"/>
+		</Entity>
+		<Entity uid="4534">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1193.79444" z="533.50483"/>
+			<Orientation y="-1.95858"/>
+			<Actor seed="28541"/>
+		</Entity>
+		<Entity uid="4535">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1164.93958" z="530.43403"/>
+			<Orientation y="1.006"/>
+			<Actor seed="28541"/>
+		</Entity>
+		<Entity uid="4536">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1172.8379" z="536.4668"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35447"/>
+		</Entity>
+		<Entity uid="4537">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1181.61731" z="535.79456"/>
+			<Orientation y="3.00744"/>
+			<Actor seed="35447"/>
+		</Entity>
+		<Entity uid="4538">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1193.48011" z="555.98896"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61353"/>
+		</Entity>
+		<Entity uid="4539">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1032.52503" z="578.23456"/>
+			<Orientation y="3.09708"/>
+			<Actor seed="3719"/>
+		</Entity>
+		<Entity uid="4540">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1025.31482" z="574.8042"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34813"/>
+		</Entity>
+		<Entity uid="4541">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1009.33399" z="581.4004"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10066"/>
+		</Entity>
+		<Entity uid="4542">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1020.46741" z="591.51453"/>
+			<Orientation y="-3.11997"/>
+			<Actor seed="54611"/>
+		</Entity>
+		<Entity uid="4543">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1015.68421" z="575.89521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18301"/>
+		</Entity>
+		<Entity uid="4544">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1038.62195" z="556.53101"/>
+			<Orientation y="-1.34977"/>
+			<Actor seed="18301"/>
+		</Entity>
+		<Entity uid="4545">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1040.38733" z="565.70972"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20268"/>
+		</Entity>
+		<Entity uid="4546">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1028.19813" z="591.97602"/>
+			<Orientation y="-2.83889"/>
+			<Actor seed="42605"/>
+		</Entity>
+		<Entity uid="4547">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1022.59656" z="585.2555"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29519"/>
+		</Entity>
+		<Entity uid="4548">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1032.81702" z="566.87134"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29519"/>
+		</Entity>
+		<Entity uid="4549">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1015.06452" z="522.69562"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26908"/>
+		</Entity>
+		<Entity uid="4550">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1009.07178" z="527.51581"/>
+			<Orientation y="0.02433"/>
+			<Actor seed="64478"/>
+		</Entity>
+		<Entity uid="4551">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1005.95398" z="537.46631"/>
+			<Orientation y="0.3305"/>
+			<Actor seed="33220"/>
+		</Entity>
+		<Entity uid="4552">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1007.0146" z="545.34375"/>
+			<Orientation y="2.62734"/>
+			<Actor seed="33220"/>
+		</Entity>
+		<Entity uid="4553">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1016.57728" z="529.32648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33220"/>
+		</Entity>
+		<Entity uid="4554">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="994.23011" z="537.99848"/>
+			<Orientation y="0.14148"/>
+			<Actor seed="3157"/>
+		</Entity>
+		<Entity uid="4555">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="994.44062" z="547.8108"/>
+			<Orientation y="2.5994"/>
+			<Actor seed="38461"/>
+		</Entity>
+		<Entity uid="4556">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1001.09131" z="535.56281"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38461"/>
+		</Entity>
+		<Entity uid="4557">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1000.1814" z="532.05964"/>
+			<Orientation y="2.52317"/>
+			<Actor seed="38461"/>
+		</Entity>
+		<Entity uid="4558">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1010.64728" z="517.5257"/>
+			<Orientation y="1.40612"/>
+			<Actor seed="13855"/>
+		</Entity>
+		<Entity uid="4559">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1015.13074" z="540.65699"/>
+			<Orientation y="-2.76566"/>
+			<Actor seed="13855"/>
+		</Entity>
+		<Entity uid="4560">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1020.516" z="518.6673"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47694"/>
+		</Entity>
+		<Entity uid="4561">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="1012.35114" z="532.4792"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17041"/>
+		</Entity>
+		<Entity uid="4562">
+			<Template>units/athen/hero_pericles</Template>
+			<Player>2</Player>
+			<Position x="1137.38929" z="595.6454"/>
+			<Orientation y="-2.36109"/>
+			<Actor seed="37750"/>
+		</Entity>
+		<Entity uid="4563">
+			<Template>units/brit/hero_caratacos</Template>
+			<Player>1</Player>
+			<Position x="887.99842" z="491.23124"/>
+			<Orientation y="1.79653"/>
+			<Actor seed="31389"/>
+		</Entity>
+		<Entity uid="4564">
+			<Template>units/cart/champion_infantry</Template>
+			<Player>1</Player>
+			<Position x="886.87568" z="512.10987"/>
+			<Orientation y="1.34467"/>
+			<Actor seed="47310"/>
+		</Entity>
+		<Entity uid="4565">
+			<Template>units/cart/champion_infantry</Template>
+			<Player>1</Player>
+			<Position x="857.44092" z="542.40033"/>
+			<Orientation y="1.38123"/>
+			<Actor seed="6464"/>
+		</Entity>
+		<Entity uid="4566">
+			<Template>units/cart/champion_infantry</Template>
+			<Player>2</Player>
+			<Position x="1148.45655" z="586.008"/>
+			<Orientation y="-2.19545"/>
+			<Actor seed="59358"/>
+		</Entity>
+		<Entity uid="4567">
+			<Template>units/cart/champion_infantry</Template>
+			<Player>2</Player>
+			<Position x="1136.14576" z="577.22327"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58804"/>
+		</Entity>
+		<Entity uid="4568">
+			<Template>units/cart/champion_infantry</Template>
+			<Player>2</Player>
+			<Position x="1125.01868" z="620.02814"/>
+			<Orientation y="-2.4717"/>
+			<Actor seed="58804"/>
+		</Entity>
+		<Entity uid="4569">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="800.11554" z="561.01069"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49513"/>
+		</Entity>
+		<Entity uid="4570">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="807.21827" z="587.99781"/>
+			<Orientation y="2.99186"/>
+			<Actor seed="63051"/>
+		</Entity>
+		<Entity uid="4571">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="811.49445" z="561.15491"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63051"/>
+		</Entity>
+		<Entity uid="4572">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="815.31739" z="563.54474"/>
+			<Orientation y="-1.90214"/>
+			<Actor seed="61289"/>
+		</Entity>
+		<Entity uid="4573">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="787.46631" z="561.19941"/>
+			<Orientation y="2.44446"/>
+			<Actor seed="61289"/>
+		</Entity>
+		<Entity uid="4574">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="788.72461" z="506.11023"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56239"/>
+		</Entity>
+		<Entity uid="4575">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="794.81208" z="487.10993"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3559"/>
+		</Entity>
+		<Entity uid="4576">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="784.22461" z="464.21601"/>
+			<Orientation y="1.36446"/>
+			<Actor seed="3559"/>
+		</Entity>
+		<Entity uid="4577">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="793.37629" z="475.06708"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47260"/>
+		</Entity>
+		<Entity uid="4578">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="802.21271" z="491.71631"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47260"/>
+		</Entity>
+		<Entity uid="4579">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="802.745" z="503.30695"/>
+			<Orientation y="3.00368"/>
+			<Actor seed="59910"/>
+		</Entity>
+		<Entity uid="4580">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="792.31208" z="397.3899"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59910"/>
+		</Entity>
+		<Entity uid="4581">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="787.43842" z="414.57642"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5003"/>
+		</Entity>
+		<Entity uid="4582">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="790.83161" z="412.77625"/>
+			<Orientation y="1.38053"/>
+			<Actor seed="5003"/>
+		</Entity>
+		<Entity uid="4583">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="797.0254" z="412.40873"/>
+			<Orientation y="2.86846"/>
+			<Actor seed="5003"/>
+		</Entity>
+		<Entity uid="4584">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="793.21387" z="409.30442"/>
+			<Orientation y="-2.57792"/>
+			<Actor seed="61874"/>
+		</Entity>
+		<Entity uid="4585">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="782.35718" z="403.44648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61874"/>
+		</Entity>
+		<Entity uid="4586">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="783.73902" z="408.50422"/>
+			<Orientation y="2.45075"/>
+			<Actor seed="61874"/>
+		</Entity>
+		<Entity uid="4587">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="794.84095" z="402.46692"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49306"/>
+		</Entity>
+		<Entity uid="4588">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="807.37629" z="391.70905"/>
+			<Orientation y="-1.41259"/>
+			<Actor seed="49306"/>
+		</Entity>
+		<Entity uid="4589">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="795.90564" z="392.10535"/>
+			<Orientation y="-3.10296"/>
+			<Actor seed="56756"/>
+		</Entity>
+		<Entity uid="4590">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="804.62641" z="398.92124"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56756"/>
+		</Entity>
+		<Entity uid="4591">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="787.00928" z="402.21268"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1357"/>
+		</Entity>
+		<Entity uid="4592">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="803.49909" z="385.38294"/>
+			<Orientation y="-2.64783"/>
+			<Actor seed="1357"/>
+		</Entity>
+		<Entity uid="4593">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="796.38349" z="380.52707"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30708"/>
+		</Entity>
+		<Entity uid="4594">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="849.43207" z="420.64386"/>
+			<Orientation y="3.10929"/>
+			<Actor seed="30708"/>
+		</Entity>
+		<Entity uid="4595">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="846.06788" z="409.32081"/>
+			<Orientation y="-1.31037"/>
+			<Actor seed="4376"/>
+		</Entity>
+		<Entity uid="4596">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="841.90699" z="418.1073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4376"/>
+		</Entity>
+		<Entity uid="4597">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="836.1236" z="425.32874"/>
+			<Orientation y="0.2817"/>
+			<Actor seed="4376"/>
+		</Entity>
+		<Entity uid="4598">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="841.49549" z="432.35236"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7376"/>
+		</Entity>
+		<Entity uid="4599">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="831.59296" z="445.08033"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7376"/>
+		</Entity>
+		<Entity uid="4600">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="827.00495" z="459.32734"/>
+			<Orientation y="-3.05687"/>
+			<Actor seed="30880"/>
+		</Entity>
+		<Entity uid="4601">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="826.72565" z="440.57441"/>
+			<Orientation y="3.13314"/>
+			<Actor seed="30880"/>
+		</Entity>
+		<Entity uid="4602">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="827.51191" z="428.69025"/>
+			<Orientation y="1.02486"/>
+			<Actor seed="30880"/>
+		</Entity>
+		<Entity uid="4603">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="838.33698" z="435.09113"/>
+			<Orientation y="-2.72596"/>
+			<Actor seed="30880"/>
+		</Entity>
+		<Entity uid="4604">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="829.5196" z="422.3296"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41181"/>
+		</Entity>
+		<Entity uid="4605">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="833.6482" z="410.73548"/>
+			<Orientation y="2.86844"/>
+			<Actor seed="41181"/>
+		</Entity>
+		<Entity uid="4606">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="841.46778" z="411.5156"/>
+			<Orientation y="1.82404"/>
+			<Actor seed="41181"/>
+		</Entity>
+		<Entity uid="4607">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="848.79011" z="418.17582"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42001"/>
+		</Entity>
+		<Entity uid="4608">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="847.66498" z="435.22345"/>
+			<Orientation y="-2.43422"/>
+			<Actor seed="42001"/>
+		</Entity>
+		<Entity uid="4609">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="892.90058" z="436.82471"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42001"/>
+		</Entity>
+		<Entity uid="4610">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="891.60029" z="429.78766"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10445"/>
+		</Entity>
+		<Entity uid="4611">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="904.54737" z="435.14658"/>
+			<Orientation y="1.85225"/>
+			<Actor seed="10445"/>
+		</Entity>
+		<Entity uid="4612">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="908.16517" z="436.54133"/>
+			<Orientation y="-2.3717"/>
+			<Actor seed="6015"/>
+		</Entity>
+		<Entity uid="4613">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="909.71991" z="440.26691"/>
+			<Orientation y="-0.8081"/>
+			<Actor seed="6015"/>
+		</Entity>
+		<Entity uid="4614">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="896.78455" z="443.70948"/>
+			<Orientation y="2.1197"/>
+			<Actor seed="6015"/>
+		</Entity>
+		<Entity uid="4615">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="903.17127" z="434.28724"/>
+			<Orientation y="-2.69494"/>
+			<Actor seed="24211"/>
+		</Entity>
+		<Entity uid="4616">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="899.65845" z="427.73783"/>
+			<Orientation y="1.19018"/>
+			<Actor seed="24211"/>
+		</Entity>
+		<Entity uid="4617">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="926.73633" z="444.6389"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24211"/>
+		</Entity>
+		<Entity uid="4618">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="928.81275" z="438.1703"/>
+			<Orientation y="-2.55582"/>
+			<Actor seed="45268"/>
+		</Entity>
+		<Entity uid="4619">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="923.55195" z="431.71836"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45268"/>
+		</Entity>
+		<Entity uid="4620">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="921.0337" z="433.81946"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45268"/>
+		</Entity>
+		<Entity uid="4621">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="922.29609" z="441.43049"/>
+			<Orientation y="0.29421"/>
+			<Actor seed="45268"/>
+		</Entity>
+		<Entity uid="4622">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="935.22053" z="458.42847"/>
+			<Orientation y="1.15293"/>
+			<Actor seed="36371"/>
+		</Entity>
+		<Entity uid="4623">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="941.01026" z="461.25995"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36371"/>
+		</Entity>
+		<Entity uid="4624">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="949.81489" z="464.7621"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36371"/>
+		</Entity>
+		<Entity uid="4625">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="951.7475" z="459.3354"/>
+			<Orientation y="-1.27627"/>
+			<Actor seed="36371"/>
+		</Entity>
+		<Entity uid="4626">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="924.3266" z="467.56867"/>
+			<Orientation y="1.27373"/>
+			<Actor seed="24733"/>
+		</Entity>
+		<Entity uid="4627">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="939.81342" z="476.3506"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24733"/>
+		</Entity>
+		<Entity uid="4628">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="937.51594" z="471.09559"/>
+			<Orientation y="-2.22127"/>
+			<Actor seed="24733"/>
+		</Entity>
+		<Entity uid="4629">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="924.57825" z="460.7837"/>
+			<Orientation y="-3.06218"/>
+			<Actor seed="24733"/>
+		</Entity>
+		<Entity uid="4630">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="929.1302" z="458.06492"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45769"/>
+		</Entity>
+		<Entity uid="4631">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="931.43372" z="458.69465"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45769"/>
+		</Entity>
+		<Entity uid="4632">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="933.33875" z="462.83606"/>
+			<Orientation y="-2.94895"/>
+			<Actor seed="45769"/>
+		</Entity>
+		<Entity uid="4633">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="930.49842" z="444.43714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45769"/>
+		</Entity>
+		<Entity uid="4634">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="939.49299" z="459.17576"/>
+			<Orientation y="3.04166"/>
+			<Actor seed="45769"/>
+		</Entity>
+		<Entity uid="4635">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="940.56305" z="448.50455"/>
+			<Orientation y="-1.24331"/>
+			<Actor seed="9626"/>
+		</Entity>
+		<Entity uid="4636">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="926.55182" z="443.77723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9626"/>
+		</Entity>
+		<Entity uid="4637">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="923.19062" z="441.48386"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9626"/>
+		</Entity>
+		<Entity uid="4638">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="921.10138" z="449.57648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9626"/>
+		</Entity>
+		<Entity uid="4639">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="918.20386" z="451.69105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9626"/>
+		</Entity>
+		<Entity uid="4640">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="839.65046" z="363.24195"/>
+			<Orientation y="-2.36585"/>
+			<Actor seed="47650"/>
+		</Entity>
+		<Entity uid="4641">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="848.31727" z="358.78376"/>
+			<Orientation y="-1.7333"/>
+			<Actor seed="21554"/>
+		</Entity>
+		<Entity uid="4642">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="830.10407" z="363.35224"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6945"/>
+		</Entity>
+		<Entity uid="4643">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="776.31995" z="407.86438"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47433"/>
+		</Entity>
+		<Entity uid="4644">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="785.87885" z="416.25669"/>
+			<Orientation y="-2.33788"/>
+			<Actor seed="44713"/>
+		</Entity>
+		<Entity uid="4645">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="769.15613" z="406.2621"/>
+			<Orientation y="-1.63042"/>
+			<Actor seed="17723"/>
+		</Entity>
+		<Entity uid="4646">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="745.96241" z="417.70051"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17723"/>
+		</Entity>
+		<Entity uid="4647">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="790.80872" z="370.51233"/>
+			<Orientation y="2.61287"/>
+			<Actor seed="43805"/>
+		</Entity>
+		<Entity uid="4648">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="794.57996" z="367.82795"/>
+			<Orientation y="0.91694"/>
+			<Actor seed="43186"/>
+		</Entity>
+		<Entity uid="4649">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="798.95014" z="371.7945"/>
+			<Orientation y="1.05263"/>
+			<Actor seed="43186"/>
+		</Entity>
+		<Entity uid="4650">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="812.39545" z="379.0058"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6875"/>
+		</Entity>
+		<Entity uid="4651">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="804.94977" z="380.35398"/>
+			<Orientation y="-1.45406"/>
+			<Actor seed="6875"/>
+		</Entity>
+		<Entity uid="4652">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="791.90448" z="388.15094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59982"/>
+		</Entity>
+		<Entity uid="4653">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="791.30256" z="379.2389"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59982"/>
+		</Entity>
+		<Entity uid="4654">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="801.23548" z="401.50651"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59413"/>
+		</Entity>
+		<Entity uid="4655">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="846.81946" z="615.73584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59413"/>
+		</Entity>
+		<Entity uid="4656">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="842.76636" z="608.86011"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61170"/>
+		</Entity>
+		<Entity uid="4657">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="836.84028" z="618.7544"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15089"/>
+		</Entity>
+		<Entity uid="4658">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="839.0138" z="606.81812"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15089"/>
+		</Entity>
+		<Entity uid="4659">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="827.93659" z="620.94678"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15089"/>
+		</Entity>
+		<Entity uid="4660">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="827.4358" z="601.29426"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3712"/>
+		</Entity>
+		<Entity uid="4661">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="825.12183" z="551.93122"/>
+			<Orientation y="0.03022"/>
+			<Actor seed="3712"/>
+		</Entity>
+		<Entity uid="4662">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="824.3058" z="578.84742"/>
+			<Orientation y="-3.02327"/>
+			<Actor seed="38729"/>
+		</Entity>
+		<Entity uid="4663">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="818.72584" z="565.60084"/>
+			<Orientation y="2.29912"/>
+			<Actor seed="38729"/>
+		</Entity>
+		<Entity uid="4664">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="828.542" z="561.65302"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38729"/>
+		</Entity>
+		<Entity uid="4665">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="828.36133" z="572.74756"/>
+			<Orientation y="-2.62208"/>
+			<Actor seed="38729"/>
+		</Entity>
+		<Entity uid="4666">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="816.90857" z="575.82496"/>
+			<Orientation y="-1.80283"/>
+			<Actor seed="2908"/>
+		</Entity>
+		<Entity uid="4667">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="803.36426" z="575.01642"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2908"/>
+		</Entity>
+		<Entity uid="4668">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="806.35401" z="569.60108"/>
+			<Orientation y="-3.06775"/>
+			<Actor seed="35677"/>
+		</Entity>
+		<Entity uid="4669">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="803.09437" z="552.14075"/>
+			<Orientation y="-3.13982"/>
+			<Actor seed="35677"/>
+		</Entity>
+		<Entity uid="4670">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="802.7577" z="543.78284"/>
+			<Orientation y="-1.91176"/>
+			<Actor seed="35677"/>
+		</Entity>
+		<Entity uid="4671">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="799.59021" z="542.65894"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35677"/>
+		</Entity>
+		<Entity uid="4672">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="790.95746" z="565.10822"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35677"/>
+		</Entity>
+		<Entity uid="4673">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="793.74836" z="561.25306"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57330"/>
+		</Entity>
+		<Entity uid="4674">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="796.49683" z="567.21076"/>
+			<Orientation y="0.88955"/>
+			<Actor seed="57330"/>
+		</Entity>
+		<Entity uid="4675">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="805.30414" z="560.26587"/>
+			<Orientation y="2.90293"/>
+			<Actor seed="57330"/>
+		</Entity>
+		<Entity uid="4676">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="796.37928" z="558.08301"/>
+			<Orientation y="2.28887"/>
+			<Actor seed="57330"/>
+		</Entity>
+		<Entity uid="4677">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="811.30152" z="546.19068"/>
+			<Orientation y="1.95961"/>
+			<Actor seed="40627"/>
+		</Entity>
+		<Entity uid="4678">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="812.03632" z="554.22297"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40627"/>
+		</Entity>
+		<Entity uid="4679">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="807.5774" z="560.40156"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40627"/>
+		</Entity>
+		<Entity uid="4680">
+			<Template>actor|campaigns/flora/trees_palm_clumps.xml</Template>
+			<Position x="799.5052" z="572.26435"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38824"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

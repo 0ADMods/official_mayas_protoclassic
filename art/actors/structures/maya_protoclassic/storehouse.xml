@@ -27,12 +27,6 @@
         <texture file="structural/ao/mayap/maya_storehouse_new_AO.png" name="aoTex"/>
       </textures>
     </variant>
-      <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/storehouse_2_new.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/maya_storehouse_new_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant name="ungarrisoned" frequency="1"/>
