@@ -5,7 +5,7 @@
     <variant frequency="100" name="1">
       <mesh>props/structural/maya_stelae_1.dae</mesh>
       <textures>        
-        <texture file="structural/ao/mayap/cobertura_1_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/stelae_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
